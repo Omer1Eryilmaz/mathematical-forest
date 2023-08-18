@@ -1,0 +1,7 @@
+\title{The #{\mathcal{P}(\mathbb{N})} domain}
+\date{2023-08-18}
+\author{Ayberk Tosun}
+\taxon{definition}
+
+\p{The domain #{\mathcal{P}(\mathbb{N})} is the [domain](axt-0003) consisting of all subsets
+of the set #{\mathbb{N}} ordered under inclusion.}
