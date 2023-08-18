@@ -1,0 +1,9 @@
+\title{Underlying idea of the notion of a domain}
+\date{2023-08-18}
+\author{Ayberk Tosun}
+
+\p{
+  A \em{domain} is a set of concrete finite elements together with infinite,
+  ideal elements such that the ideal elements are characterised uniquely by
+  their finite approximations.
+}
