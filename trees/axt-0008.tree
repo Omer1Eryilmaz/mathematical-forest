@@ -1,0 +1,17 @@
+\title{Frame (type-theoretic)}
+\date{2023-08-19}
+\taxon{definition}
+
+\def\UU{\mathcal{U}}
+\def\VV{\mathcal{V}}
+\def\WW{\mathcal{W}}
+\def\b1{\mathbf{1}}
+
+\p{
+  A #{(\UU, \VV, \WW)}-frame #{L} consists of a
+  \ol{
+    \li{a type #{|L| : \UU}}
+    \li{a partial order #{- \le - : |L| \to |L| \to \Omega_{\VV}}}
+    \li{a top element #{\b1 : |L|}}
+  }
+}
