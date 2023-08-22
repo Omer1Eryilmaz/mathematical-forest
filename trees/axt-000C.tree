@@ -1,0 +1,10 @@
+\title{Saturated subset (formal topology)}
+\date{2023-08-22}
+\taxon{definition}
+
+\import{axt-000D}
+
+Given a formal topology #{\AA = (S, \sqsubseteq, \lhd)}, a subset #{A \subseteq
+S} is called saturated if it is a fixed point of the [closure
+operator](axt-000D) associated with #{\AA}, which is to say it satisfies
+##{\Clos_{\AA}(A) = A.}
