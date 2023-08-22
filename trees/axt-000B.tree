@@ -1,0 +1,9 @@
+\title{Prime approximation}
+\date{2023-08-22}
+\taxon{definition}
+
+\p{
+  Let #{L} be a dcpo and let #{x,y \in L}. Element #{x} is said to
+  \em{prime-approximate} element #{y} if ##{\forall A \subseteq L.\ y \le \bigvee
+  S \rightarrow \exists a \in A.\ x \le a}
+}
