@@ -14,8 +14,9 @@
         #{\CC} and #{e : C \to C} is an [idempotent](axt-000A) of #{C};
       }
       \li{
-        \em{morphisms} are triples #{(e, f, e') : (C, e) \to (C', e')} where #{f : C
-        \to C'} is a morphism of #{\CC} satisfying #{e' \circ f = f = f \circ e};
+        \em{morphisms} are triples #{(e, f, e') : (C, e) \to (C', e')} where #{f
+        : C \to C'} is a morphism of #{\CC} satisfying #{e' \circ f = f = f
+        \circ e};
       }
       \li{
         \em{composition} operation is taken directly from #{\CC};
