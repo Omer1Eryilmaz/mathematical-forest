@@ -1,0 +1,10 @@
+\title{Idempotent in a category}
+\date{2023-08-22}
+\taxon{definition}
+
+\def\CC{\mathbb{C}}
+
+\p{
+  An \em{idempotent} on an object #{C} of some category #{\CC} is an
+  endomorphism #{e : \CC \to \CC} satisfying ##{e \circ e = e.}
+}
