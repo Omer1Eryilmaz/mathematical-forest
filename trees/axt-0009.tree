@@ -1,2 +1,27 @@
 \title{Karoubi envelope}
 \date{2023-08-22}
+\taxon{definition}
+
+\def\CC{\mathbb{C}}
+\def\Split{\mathsf{Split}}
+
+\p{
+  The Karoubi envelope of a category #{\CC}, written #{\Split(\CC)}, is the
+  category whose
+    \ol{
+      \li{
+        \em{objects} are pairs of the form #{(C, e)} where #{C} is an object of
+        #{\CC} and #{e : C \to C} is an [idempotent](axt-000A) of #{C};
+      }
+      \li{
+        \em{morphisms} are triples #{(e, f, e') : (C, e) \to (C', e')} where #{f : C
+        \to C'} is a morphism of #{\CC} satisfying #{e' \circ f = f = f \circ e};
+      }
+      \li{
+        \em{composition} operation is taken directly from #{\CC};
+      }
+      \li{
+        \em{identity morphisms} on objects #{(C, e)} are given by #{(e, e, e)}.
+      }
+    }
+}
