@@ -7,8 +7,3 @@
   if #{A} is clopen then #{A} is either the empty set #{\emptyset} or the entire
   set #{X}.
 }
-
-\p{
-  Classically, this definition is equivalent to the [separation definition of
-  connectedness](axt-000E).
-}
