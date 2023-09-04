@@ -1,0 +1,30 @@
+\date{2023-09-04}
+\author{Ayberk Tosun}
+\taxon{theorem}
+
+\def\opens[x]{\mathcal{O}(\x)}
+
+\p{A space #{X} has [no separation](axt-000E) iff its only clopen subsets are the trivial ones.}
+
+\p{
+  #{(\Rightarrow)} Suppose space #{X} has no separation and let #{F \subseteq X}
+  be a clopen. Suppose, towards a contradiction, that #{F} is a nontrivial
+  subset i.e. it is neither #{\empty} nor #{X}. Denote by #{F^{-1}} the
+  complement of #{F} in #{X}. The set #{F^{-1}} must be clopen and disjoint from
+  #{F} by definition. Because #{F \neq X}, it must exclude some point #{x \in
+  X}, which must be contained by #{F^{-1}} by construction. This means #{F^{-1}}
+  is nonempty. Therefore, the pair #{(F, F^{-1})} is a separation of the space
+  #{X}: #{X = F \cup F^{-1}}, both #{F} and #{F^{-1}} are nonempty, and they
+  are disjoint from each other. This contradicts the assumption #{X} has no
+  separation.
+}
+
+\p{
+  #{(\Leftarrow)} Suppose the only clopen subsets of space #{X} are the trivial
+  ones i.e. #{\empty} and #{X}. Suppose #{X} had a separation #{(U, V)}. Then
+  #{V} must be the complement of #{U} in #{X}. This means that it must be
+  closed, by virtue of being the complement of an open #{U}. Also, the open #{U}
+  must be closed too since it is itself the complement of the open #{V}. As
+  both #{U} and #{V} are both nonempty, they both cannot be either #{\empty} or
+  #{X}. This means they are both nontrivial clopens.
+}
