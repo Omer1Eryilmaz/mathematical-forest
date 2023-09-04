@@ -1,0 +1,15 @@
+\title{Connected space (set-theoretic)}
+\date{2023-09-04}
+\taxon{definition}
+
+\def\OO{\mathcal{O}}
+
+\p{
+  A topological space #{X} is called \em{connected} if there does not exist a
+  pair #{U, V \in \OO(X)} of disjoint and nonempty open sets such that #{X = U
+  \cup V}.
+}
+
+\p{
+  Such a pair #{(U, V)} is called a \em{separation} of the space #{X}.
+}
