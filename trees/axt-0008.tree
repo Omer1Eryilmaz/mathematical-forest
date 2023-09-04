@@ -7,11 +7,26 @@
 \def\WW{\mathcal{W}}
 \def\b1{\mathbf{1}}
 
+\def\Fam{\mathsf{Fam}}
+
 \p{
   A #{(\UU, \VV, \WW)}-frame #{L} consists of a
   \ol{
     \li{a type #{|L| : \UU}}
-    \li{a partial order #{- \le - : |L| \to |L| \to \Omega_{\VV}}}
-    \li{a top element #{\b1 : |L|}}
+    \li{a partial order #{- \le - : |L| \to |L| \to \Omega_{\VV}},}
+    \li{a top element #{\b1 : |L|},}
+    \li{
+      an operation #{- \wedge - : |L| \to |L| \to |L|} giving the greatest lower
+      bound #{U \wedge V} of any two #{U, V : |L|}.
+    }
+    \li{
+      an operation #{\bigvee - : \Fam_{\WW}(|L|) \to |L|} giving the least upper
+      bound #{\bigvee_{i : I} U_i} of any #{\WW}-family #{\left\{ U_i \right\}_{i : I}}.
+    }
+    \li{
+      such that binary meets distribute over arbitrary joins, i.e.
+      ##{U \wedge \bigvee_{i : I} V_i = \bigvee_{i : I} U \wedge V_i}
+      for every #{U : |L|} and #{\WW}-family #{\{ V_i \}_{i : I}} in #{|L|}.
+    }
   }
 }
