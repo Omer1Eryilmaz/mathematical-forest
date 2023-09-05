@@ -1,0 +1,10 @@
+\title{De Bruijn–Erdős theorem}
+\date{2023-09-05}
+\author{Ayberk Tosun}
+\taxon{theorem}
+
+\p{
+  Let #{G = (V, E)} be a (possibly infinite) graph. If all finite subgraphs of
+  #{G} have a maximum chromatic number of #{c} then #{G} itself has a maximum
+  chromatic number of #{c}.
+}
