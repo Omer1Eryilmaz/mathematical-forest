@@ -4,6 +4,7 @@
 
 \p{
   Let #{L} be a dcpo and let #{x,y \in L}. Element #{x} is said to
-  \em{prime-approximate} element #{y} if ##{\forall A \subseteq L.\ y \le \bigvee
-  S \rightarrow \exists a \in A.\ x \le a}
+  \em{prime-approximate} element #{y} if
+  ##{\forall S \subseteq L.\ y \le \bigvee S \rightarrow \exists a \in S.\ x \le a.}
+  This is denoted #{x \lll y}.
 }
