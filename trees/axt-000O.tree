@@ -1,0 +1,9 @@
+\title{Alexander Subbase Theorem}
+\date{2023-09-13}
+\taxon{theorem}
+
+\p{
+  Let #{X} be a topological space and let #{S} be a [subasis](axt-000P) for
+  #{X}. If every open cover of #{X} consisting only of elements from the
+  subbasis #{S} has a finite subcover, then #{X} is a compact space.
+}
