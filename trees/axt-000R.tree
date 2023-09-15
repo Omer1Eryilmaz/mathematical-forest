@@ -1,0 +1,9 @@
+\title{Compact space (point-set)}
+\date{2023-09-15}
+\taxon{definition}
+
+\p{
+  A space #{X} is called \em{compact} if for every [open covering](axt-000S)
+  #{X = \bigcup_{i \in I} U_i} of it, there is a subset #{J \subseteq I} such
+  that #{\{ U_j \}_{j \in J}} is also an [open covering](axt-000S) of #{X}.
+}
