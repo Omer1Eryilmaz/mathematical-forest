@@ -1,0 +1,10 @@
+\title{Hausdorff property and filter bases}
+\date{2023-09-15}
+\taxon{theorem}
+
+\p{
+  A space #{X} is [Hausdorff](axt-000Q) iff every [filter base](axt-000V) has at
+  most one limit.
+}
+
+\p{Foo bar}
