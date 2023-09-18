@@ -11,3 +11,7 @@
   A function #{f : X \to Y} is called \em{weakly constant} if #{\prod_{x, y : X}
   f(x) = f(y)}.
 }
+
+\p{
+  Definition 2.13 from the [KECA paper](TODO).
+}
