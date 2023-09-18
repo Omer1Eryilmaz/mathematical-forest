@@ -1,0 +1,8 @@
+\title{Zorn's Lemma}
+\date{2023-09-18}
+\taxon{definition}
+
+\p{
+  \em{Zorn's Lemma} says that every nonempty inductive ordered set has a
+  maximal element
+}
