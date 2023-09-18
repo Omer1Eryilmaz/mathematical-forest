@@ -1,3 +1,24 @@
 \title{Filter base}
 \date{2023-09-15}
 \taxon{definition}
+\author{Ayberk Tosun}
+
+\def\BB{\mathcal{B}}
+\def\PP{\mathcal{P}}
+
+\p{
+  A \em{filter base} on a nonempty set #{X} is a family #{\{ B_i \}_{i \in I}}
+  of subsets of #{\PP(X)} satisfying the following properties:
+  \ol{
+    \li{#{I \neq \emptyset} and #{B_i \neq \emptyset} for each #{i \in I}}
+    \li{
+      For any two #{i, j \in I}, there exists some #{k \in I} such that
+      #{B_k \subseteq B_i \cap B_j}.
+    }
+  }
+}
+
+\p{
+  Adapted from the definition in page 21 of
+  [Bridges' lecture notes](bridges-topological-and-uniform-2022).
+}
