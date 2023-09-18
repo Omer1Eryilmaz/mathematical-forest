@@ -1,0 +1,11 @@
+\title{Split support}
+\date{2023-09-18}
+\taxon{definition}
+
+\p{
+  A type #{X} is said to \em{have split support} if #{\| X \| \to X.}
+}
+
+\p{
+  Given in Definition 3.9 of the [KECA paper](TODO).
+}
