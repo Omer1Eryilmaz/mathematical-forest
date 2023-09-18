@@ -1,0 +1,8 @@
+\title{Compactness and the finite intersection property}
+\date{2023-09-15}
+
+\p{
+  A space #{X} is [compact](axt-000R) iff for every family #{\{ F_i \}_{i \in
+  I}} of closed sets having the finite intersection property, the intersection
+  #{\bigcap_{i \in I} F_i} is nonempty.
+}
