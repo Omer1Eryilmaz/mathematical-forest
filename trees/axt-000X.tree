@@ -3,7 +3,7 @@
 \taxon{theorem}
 
 \p{
-  A space #{X} is [Hausdorff](axt-000Q) iff every [filter base](axt-000V) has at
+  A space #{X} is [Hausdorff](axt-000Q) iff every [filter base](axt-000Y) has at
   most one limit.
 }
 
