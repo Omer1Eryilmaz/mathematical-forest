@@ -1,8 +1,11 @@
 \title{Pointfree topology and constructive mathematics}
 \date{2023}
 \taxon{reference}
+
 \author{Graham Manuell}
+
 \tag{preprint}
+
 \meta{bibtex}{\startverb%
 @misc{manuell-pt-and-cm-2023,
   title     = {Pointfree topology and constructive mathematics},
@@ -13,3 +16,11 @@
   note      = {Lecture notes for a course at the TACL Summer School}
 }
 \stopverb}
+
+\p{
+  \ol{
+    \li{[arXiv link](https://arxiv.org/abs/2304.06000)}
+    \li{[PDF](Skim:///Users/ayberkt/Dropbox/Reading/manuell-pt-and-cm-2022.pdf)}
+  }
+}
+
