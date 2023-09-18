@@ -1,0 +1,13 @@
+\title{Weakly constant map}
+\date{2023-09-18}
+\taxon{definition}
+
+\author{Nicolai Kraus}
+\author{Martin Escardo}
+\author{Thierry Coquand}
+\author{Thorsten Altenkirch}
+
+\p{
+  A function #{f : X \to Y} is called \em{weakly constant} if #{\prod_{x, y : X}
+  f(x) = f(y)}.
+}
