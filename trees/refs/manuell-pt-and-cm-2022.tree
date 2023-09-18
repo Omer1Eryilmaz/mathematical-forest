@@ -2,13 +2,14 @@
 \date{2023}
 \taxon{reference}
 \author{Graham Manuell}
-\tag{book}
+\tag{preprint}
 \meta{bibtex}{\startverb%
 @misc{manuell-pt-and-cm-2023,
-   title    = {Pointfree topology and constructive mathematics}, 
-   author   = {Graham Manuell},
-   date     = {2023-04-12},
-   eprint   = {2304.06000},
-   note     = {Preprint}
+  title     = {Pointfree topology and constructive mathematics},
+  author    = {Graham Manuell},
+  date      = {2022-06},
+  eprint    = {2304.06000},
+  address   = {Praia de Mira},
+  note      = {Lecture notes for a course at the TACL Summer School}
 }
 \stopverb}
