@@ -3,7 +3,7 @@
 \taxon{definition}
 
 \p{
-  A type #{X} is said to \em{have split support} if #{\| X \| \to X.}
+  A type #{X} is said to \em{have split support} if #{|| X || \to X.}
 }
 
 \p{
