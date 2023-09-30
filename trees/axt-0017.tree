@@ -1,0 +1,27 @@
+\title{Information system}
+\date{2023-09-22}
+\taxon{definition}
+
+\author{Dana S. Scott}
+\author{Glynn Winskel}
+\author{Larden?}
+
+\def\Con{\mathsf{Con}}
+\def\Pow[X]{\mathcal{P}(\X)}
+
+\p{
+  An \em{information system} is a triple #{S = (E, \Con, \vdash)}, where
+  \ol{
+    \li{#{E} is a set,}
+    \li{#{\Con \subseteq \Pow{E}} is a collection of finite subsets of #{E}, and}
+    \li{#{\_\vdash\_ \subseteq \Con \times E} a binary relation,}
+  }
+  subject to the following conditions
+  \ol{
+    \li{#{\Con} is downards-closed w.r.t. the subset ordering.}
+    \li{The singleton set #{\{ x \} \in \Con} for every #{x \in E}.}
+    \li{If #{U \vdash x} then #{U \cup \{ x \} \in \Con}.}
+    \li{If #{U \in \Con} and #{x \in U} then #{U \vdash x}.}
+    \li{If #{U \vdash x} for all #{x \in V} and #{V \vdash y} then #{U \vdash y}.}
+  }
+}
