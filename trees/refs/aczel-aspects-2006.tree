@@ -18,3 +18,9 @@
   url     = {https://www.sciencedirect.com/science/article/pii/S0168007205000643},
 }
 \stopverb}
+
+\p{
+  \ol{
+    \li{[PDF](Skim:///Users/ayberkt/Dropbox/Reading/aczel-aspects-2006.pdf)}
+  }
+}
