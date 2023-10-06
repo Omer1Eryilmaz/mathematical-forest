@@ -1,6 +1,7 @@
 \title{Regular space}
 \date{2023-10-06}
 \taxon{definition}
+\author{Stephen Willard}
 
 \p{
   A topological space #{X} is called a \em{regular} if for any closed #{F
