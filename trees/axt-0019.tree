@@ -1,0 +1,12 @@
+\title{Regular space}
+\date{2023-10-06}
+\taxon{definition}
+
+\p{
+  A topological space #{X} is called a \em{regular} if for any closed #{F
+  \subseteq X} and any #{x \notin F}, there exist disjoint open sets containing
+  #{x} and #{F}.
+}
+
+Adapted from Definition 14.1 of [Willard's \em{General
+Topology}](willard-general-topology-2012).
