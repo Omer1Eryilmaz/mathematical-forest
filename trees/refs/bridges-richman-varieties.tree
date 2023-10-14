@@ -1,0 +1,16 @@
+\title{Varieties of constructive mathematics}
+\date{1987}
+\taxon{reference}
+\author{Douglas S. Bridges}
+\author{Fred Richman}
+\tag{book}
+\meta{bibtex}{\startverb%
+@book{bridges-richman-varieties,
+  title        = {Varieties of constructive mathematics},
+  author       = {Bridges, Douglas S. and Richman, Fred},
+  series       = {{London} Mathematical Society Lecture Note Series, vol. 97},
+  isbn         = {9780511565663},
+  year         = {1987},
+  address      = {Cambridge}
+}
+\stopverb}
