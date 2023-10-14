@@ -11,3 +11,5 @@
   that, for any binary sequence #{\{ a_n \}_{n \in \NN}}, either there exists
   some #{n \in \NN} such that #{a_n = 1} or #{a_n = 0} for all #{n \in \NN}.
 }
+
+From page 3 of [Varieties of Constructive Mathematics](bridges-richman-varieties).
