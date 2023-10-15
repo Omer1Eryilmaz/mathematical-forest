@@ -1,0 +1,17 @@
+\title{Stone Spaces}
+\date{2002}
+\taxon{reference}
+\author{Peter T. Johnstone}
+\tag{book}
+\meta{bibtex}{\startverb%
+@book{ptj-stone-spaces,
+  title        = {Stone Spaces},
+  author       = ptj,
+  date         = {2002},
+  series       = {Cambridge Studies in Advanced Mathematics},
+  publisher    = cup,
+  location     = {{Cambridge}},
+  isbn         = {978-0-521-33779-3},
+  langid       = {english}
+}
+\stopverb}
