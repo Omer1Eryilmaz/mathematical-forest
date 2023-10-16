@@ -5,6 +5,10 @@ echo -n "Changing directory into `~/Code/ayberkt.github.io`... "
 pushd ~/Code/ayberkt.github.io; and echo " OK"; or exit 1
 echo "Current working directory is `$(pwd)`"
 
+## Pull from remote.
+echo -n "Pulling from remote..."
+git pull; and echo " OK"; or exit 1
+
 ## Remove the old forest.
 echo -n "Removing `mathematical-forest`..."
 rm -rf mathematical-forest; and echo " OK"; or exit 1
