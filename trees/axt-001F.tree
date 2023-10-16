@@ -1,0 +1,25 @@
+\title{𝓥-family}
+\date{2023-10-16}
+\author{Ayberk Tosun}
+\taxon{definition}
+
+\def\VV{\mathcal{V}}
+\def\UU{\mathcal{U}}
+
+\p{
+  A \em{#{\VV}-family on a type #{A : \UU}} is a pair #{(I, \iota)} where
+  \ul{
+    \li{#{I} is a type in universe #{\VV},}
+    \li{and #{\iota} is a function of type #{I \to A}.}
+  }
+}
+
+\p{
+  List of formal definitions:
+  \ol{
+    \li{
+      [Fam in UF.Slice](https://www.cs.bham.ac.uk//~mhe/TypeTopology/Slice.Family.html#262)
+      in TypeTopology.
+    }
+  }
+}
