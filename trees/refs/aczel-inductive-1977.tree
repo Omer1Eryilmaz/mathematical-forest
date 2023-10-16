@@ -1,6 +1,7 @@
 \title{An Introduction to Inductive Definitions}
 \author{Peter Aczel}
 \date{1977}
+\taxon{reference}
 
 \meta{bibtex}{\startverb%
 @incollection{aczel-inductive-1977,
