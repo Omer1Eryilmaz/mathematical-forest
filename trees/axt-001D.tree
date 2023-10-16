@@ -1,0 +1,13 @@
+\title{Algebraic dcpo in UF}
+\date{2023-10-16}
+\taxon{definition}
+\author{tom-de-jong}
+
+\def\VV{\mathcal{V}}
+
+\p{
+  A #{\VV}-dcpo is \em{algebraic} if the propositional truncation of its
+  [structural algebraicity](axt-001D) holds.
+}
+
+\p{\b{Definition 4.6.3} of [[tom-de-jong]]'s [PhD thesis](tdj-thesis).}
