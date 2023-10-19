@@ -30,3 +30,7 @@
     }
   }
 }
+
+\p{
+  Adapted from \b{Definition 2.1} of [[pitts-tripos-retrospect]].
+}
