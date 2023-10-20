@@ -17,14 +17,14 @@
     \li{an element #{\kk \in \AA}, and}
     \li{an element #{\ss \in \AA};}
   }
-  satisfying the conditions, for every #{a, b, c \in \AA},
+  satisfying the following conditions.
   \ul{
     \li{
-      for every #{a, b \in \AA},
+      For every #{a, b \in \AA},
       #{(\kk \apply a) \downarrow}, and #{(\kk \apply a) \apply b \equiv a;}
     }
     \li{
-      for every #{a, b, c \in \AA},
+      For every #{a, b, c \in \AA},
       #{(\ss \apply a) \downarrow},
       #{((s \apply a) \apply b)\downarrow}, and
       #{((\ss \apply a) \apply b) \apply c \equiv (a \apply c) \apply (b \apply c).}
