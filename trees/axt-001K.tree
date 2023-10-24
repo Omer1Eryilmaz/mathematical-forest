@@ -1,0 +1,22 @@
+\title{Structurally continuous dcpo}
+\date{2023-10-24}
+\author{tom-de-jong}
+\taxon{definition}
+
+\def\VV{\mathcal{V}}
+\def\WayBelow{\ll}
+
+\p{
+  A #{\VV}-dcpo #{D} is \em{structurally continuous} if for every #{x : D},
+  we have a specified directed [#{\VV}-family](axt-001F) #{(I, \alpha)}
+  satisfying the following conditions.
+  \ol{
+    \li{#{(I, \alpha)} is a directed family.}
+    \li{#{x} is the supremum of #{(I, \alpha)}.}
+    \li{Every #{\alpha(i)} given by #{(I, \alpha)} is way below #{x}.}
+  }
+}
+
+\p{
+  \b{Definition 4.4.1} of [[tom-de-jong]]'s [PhD thesis](tdj-thesis).
+}
