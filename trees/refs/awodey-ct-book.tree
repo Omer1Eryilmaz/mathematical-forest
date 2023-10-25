@@ -1,0 +1,18 @@
+\title{Category Theory}
+\date{2006}
+\taxon{reference}
+\author{steve-awodey}
+\tag{book}
+\meta{bibtex}{\startverb%
+@book{awodey-ct-book,
+  title     = {Category Theory},
+  author    = {Awodey, Steve},
+  date      = {2006},
+  address   = {Great Clarendon Street, Oxford, {OX2 6DP}},
+  edition   = {2},
+  isbn      = {0198568614},
+  publisher = {Oxford University Press},
+  series    = {Oxford Logic Guides},
+  volume    = {52},
+}
+\stopverb}
