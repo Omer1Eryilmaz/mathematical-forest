@@ -9,8 +9,11 @@
 \def\IsDefinedToBe{\vcentcolon\equiv}
 
 \p{
-  Let #{\encode{{-}}} denote some computable coding operation #{\List{\NN} \to
-  \NN}.
+  Let
+  \ul{
+    \li{#{\encode{{-}}} denote some computable coding operation #{\List{\NN} \to \NN}, and}
+    \li{#{\mu} denote the [minimization operator](axt-001O).}
+  }
 }
 
 \p{
