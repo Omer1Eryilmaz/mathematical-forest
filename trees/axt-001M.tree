@@ -1,0 +1,35 @@
+\title{Kleene's countable functionals}
+\author{john-longley}
+\date{2023-10-25}
+\taxon{definition}
+
+\def\CC{\mathsf{C}}
+\def\NN{\mathbb{N}}
+\def\IsDefinedToBe{\vcentcolon\equiv}
+
+\p{
+  The class #{\CC_n} of \em{countable functionals at level #{n}} is defined by
+  induction on #{n}, together with a notion of \em{associate} for each #{\CC_n}.
+  \ul{
+    \li{#{\CC_0 \IsDefinedToBe \NN}.}
+    \li{#{\CC_1 \IsDefinedToBe \NN^{\NN}}.}
+    \li{Each #{f \in \CC_1} is taken to be an associate for itself.}
+    \li{For #{n \ge 1}, 
+      \ul{
+        \li{
+          a function #{f \in \CC_1} is taken to be associate for the function
+          #{F : \CC_n \to \NN} if for every #{G \in \CC_n} and for every
+          associate #{g} for #{G}, #{f\ |\ g = F(G)}.
+        }
+        \li{
+          #{\CC_{n + 1}} is taken to be the set of functions #{\CC_n \to \NN}
+          that have associates.
+        }
+      }
+    }
+  }
+}
+
+\p{
+  \b{Definition 3.13} from [Longley](john-longley)'s [[longley-notions-I]].
+}
