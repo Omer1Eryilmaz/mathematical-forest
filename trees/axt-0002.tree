@@ -3,6 +3,6 @@
 \author{Ayberk Tosun}
 \taxon{definition}
 
-\p{The domain #{\mathcal{P}(\mathbb{N})}, that [Dana Scott](danasscott) calls
-"the universal domain", is the [domain](axt-0003) consisting of all subsets of
-the set #{\mathbb{N}} ordered under inclusion.}
+\p{The domain #{\mathcal{P}(\mathbb{N})}, that [[dana-scott]] calls "the
+universal domain", is the [domain](axt-0003) consisting of all subsets of the
+set #{\mathbb{N}} ordered under inclusion.}
