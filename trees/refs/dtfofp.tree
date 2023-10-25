@@ -4,7 +4,7 @@
 \author{thomas-streicher}
 \tag{book}
 \meta{bibtex}{\startverb%
-@book{streicher-dtfofp,
+@book{dtfofp,
   title        = {Domain-Theoretic Foundations of Functional Programming},
   author       = {Streicher, Thomas},
   year         = 2006,
