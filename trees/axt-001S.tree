@@ -1,0 +1,15 @@
+\title{Algebraic dcpo}
+\date{2023-10-25}
+\taxon{definition}
+
+\def\KK{\mathcal{K}}
+
+\p{
+  A dcpo #{(D, \sqsubseteq)} is called \em{algebraic} if for every #{x \in D}
+  the set #{\{c \in \KK(D) \mid c \sqsubseteq x\}} is directed and has #{x} as
+  its join.
+}
+
+\p{
+  The definition here follows \b{Theorem 11.5} from [[dtfofp]].
+}
