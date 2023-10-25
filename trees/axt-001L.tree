@@ -1,0 +1,11 @@
+\title{Algebraic dcpo in UF (alternative)}
+\date{2023-10-24}
+\author{tom-de-jong}
+
+\def\VV{\mathcal{V}}
+\def\KK[x]{\mathsf{KK}_{\x}}
+
+\p{
+  A #{\VV}-dcpo #{D} is called \em{algebraic} if
+  the type ##{\KK{x} \is}
+}
