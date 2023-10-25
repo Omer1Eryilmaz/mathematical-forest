@@ -1,0 +1,26 @@
+\title{Minimization operator}
+\date{2023-10-25}
+\taxon{definition}
+
+\def\NN{\mathbb{N}}
+\def\Bool{\mathsf{Bool}}
+\def\pto{\rightharpoonup}
+\def\IsDefinedToBe{\vcentcolon\equiv}
+\def\searchnm{\mathsf{search}}
+\def\search[P][n]{\searchnm (\P, \n)}
+
+\p{
+  The \em{minimization operation} (sometimes called "unbounded search") is a
+  partial function ##{\mu : (\NN \to \Bool) \pto \NN} defined as
+  ##{\mu(P) \IsDefinedToBe \search{P}{0}.}
+  where the auxiliary #{\searchnm} function is defined as
+  ##{
+    \search{P}{n} \IsDefinedToBe
+      \begin{cases}
+        n                & \mathsf{if}\ P(n)\\
+        \search{P}{n+1}  & \mathsf{otherwise}
+      \end{cases}
+  }
+  Given a predicate #{P : \NN \to \Bool}, #{\mu(P)} will return the smallest
+  #{n} satisfying #{P}, if such an #{n} exists, and will be undefined otherwise.
+}
