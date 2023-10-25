@@ -12,3 +12,7 @@
     \li{[bounded complete](axt-001R).}
   }
 }
+
+\p{
+  The definition here follows \b{Theorem 11.5} from [[dtfofp]].
+}
