@@ -8,7 +8,7 @@
 \p{
   A dcpo #{(D, \sqsubseteq)} is called a \em{Scott domain} if it is
   \ul{
-    \li{it is [algebraic](axt-001S)}
-    \li{[bounded complete](axt-001R), and}
+    \li{[algebraic](axt-001S), and}
+    \li{[bounded complete](axt-001R).}
   }
 }
