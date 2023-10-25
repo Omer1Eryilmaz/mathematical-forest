@@ -1,0 +1,16 @@
+\title{Higher-Order Computability}
+\date{2015}
+\taxon{reference}
+\author{john-longley}
+\author{dag-normann}
+\tag{book}
+\meta{bibtex}{\startverb%
+@book{longley-normann-hoc,
+  title     = {Higher-Order Computability},
+  author    = {Longley, John R. and Normann, Dag},
+  year      = 2015,
+  publisher = {Springer},
+  series    = {Theory and Applications of Computability},
+  doi       = {10.1007/978-3-662-47992-6},
+}
+\stopverb}
