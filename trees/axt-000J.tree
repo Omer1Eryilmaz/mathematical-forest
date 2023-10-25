@@ -1,16 +1,14 @@
 \title{Scott domain}
 \date{2023-09-06}
+\author{dana-scott}
 \taxon{definition}
 
 \def\KK{\mathcal{K}}
 
 \p{
   A dcpo #{(D, \sqsubseteq)} is called a \em{Scott domain} if it is
-  \ol{
-    \li{bounded complete, and}
-    \li{
-      for any #{x \in D}, the set #{\{ c \in \KK(D) \mid c \sqsubseteq d \}}
-      is directed and gives #{x} as its join.
-    }
+  \ul{
+    \li{it is [algebraic](axt-001S)}
+    \li{[bounded complete](axt-001R), and}
   }
 }
