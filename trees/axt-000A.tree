@@ -6,5 +6,5 @@
 
 \p{
   An \em{idempotent} on an object #{C} of some category #{\CC} is an
-  endomorphism #{e : \CC \to \CC} satisfying ##{e \circ e = e.}
+  endomorphism #{e : C \to C} satisfying ##{e \circ e = e.}
 }
