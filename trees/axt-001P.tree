@@ -1,0 +1,90 @@
+\title{Idea of Kleene's second model}
+\date{2023-10-25}
+\author{ayberkt}
+
+\def\NN{\mathbb{N}}
+\def\KK2{\mathsf{K_2}}
+\def\Baire{\NN^{\NN}}
+\def\encode[ns]{\langle \ns \rangle}
+\def\IsDefinedToBe{\vcentcolon\equiv}
+\def\pto{\rightharpoonup}
+
+\p{
+  The following is the summary of my understanding of [Longley](john-longley)
+  and [Normann](dag-normann)'s discussion in \b{Section 3.2.1} of their [book
+  on higher-order computability](longley-normann-hoc).
+}
+
+\p{
+  Consider a function #{F : \NN^{\NN} \to \NN}, that is computable in an
+  intuitive sense.
+}
+
+\p{
+  Given some #{g \in \Baire}, when the function #{F} returns a result #{F(g) \in
+  \NN}, it must do so after a finite examination of the input #{g}. This is to
+  say that there must be some #{r \in \NN} such that #{F} "looks at" only the
+  values #{g(0), \ldots, g(i_{r-1})}. So the result #{F(g)} is \em{determined
+  solely} using the information of the behaviour of #{g} on the inputs #{0,
+  \ldots, i_{r-1}}.
+}
+
+\p{
+  Attempting to capture this idea of #{F} being determined solely on a finite
+  amount of information about the behaviour of #{g}, we are naturally led to the
+  notion of \em{continuity}: #{F} cannot distinguish between #{g} and any other
+  function #{g' \in \Baire} that returns the same values as those of #{g} on
+  inputs #{0, \ldots, i_{r-1}}. In other words,
+  ##{
+    \forall g' \in \Baire.\ \forall k \in \{0, \ldots, r-1\}.\ g(i_k) = g'(i_k) \rightarrow F(g) = F(g').
+  }
+}
+
+\p{
+  This is precisely the same thing as saying that #{F} is \em{continuous} with
+  respect to the standard Baire topology on #{\Baire} and the discrete topology
+  #{\NN}. Continuity is merely a \em{necessary condition} for computability as
+  there are many continuous functions #{F : \Baire \to \NN} that are \b{not}
+  computable (in any sense). The idea, however, is that an abstract model of
+  computation based only on this necessary condition will already capture some
+  interesting aspects of computability.
+}
+
+\p{
+  If #{F : \Baire \to \NN} is continuous in this sense, the function #{F}
+  can be \b{described completely} by whether the information
+  ##{g(0) = m_0, \ldots, g(r-1) = m-1}
+  is sufficient to determine the value of #{F(g)}, and if it is, what this
+  value is. But this information that completely determines #{F} is \b{finite}
+  and itself be represented as a function #{f_F \in \Baire}, defined as
+  ##{
+    f(\encode{m_0, \ldots, m_{r-1}}) \IsDefinedToBe
+      \begin{cases}
+        m + 1 & \mathsf{if}\ g(0) = m_0 \wedge \cdots \wedge g(r-1) = m_{r-1} \rightarrow F(g) = m\ \\
+        0     & \mathsf{if}\ g(0) = m_0 \wedge \cdots \wedge g(r-1) = m_{r-1}\ \mathsf{does\ not\ suffice\ to\ determine}\ F(g)
+      \end{cases}
+  }
+}
+
+\p{
+  The idea of the [partial application operation](axt-001N) is to take such an
+  #{f_F} encoding a function #{F : \Baire \to \NN} and to determine the value
+  of #{F(g)} using the continuity data encoded by #{f_F}. This brings us to
+  the definition of this application operation.
+}
+
+\transclude{axt-001N}
+
+\p{
+  So this operation gives us a function #{{-}\ |\ {-} : \Baire \times \Baire \pto
+  \Baire}
+}
+
+\p{
+  Kleene's second model (often denoted #{\KK2}) is the structure #{(\Baire, {-}\ |\ {-})}.
+}
+
+\p{
+  Kleene's [countable functionals](axt-001N) extend this idea from types of degree
+  #{2} to types of arbitrary degree i.e. higher types.
+}
