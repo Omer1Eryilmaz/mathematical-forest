@@ -1,0 +1,14 @@
+\title{Domain-Theoretic Foundations of Functional Programming}
+\date{2006}
+\taxon{reference}
+\author{thomas-streicher}
+\tag{book}
+\meta{bibtex}{\startverb%
+@book{streicher-dtfofp,
+  title        = {Domain-Theoretic Foundations of Functional Programming},
+  author       = {Streicher, Thomas},
+  year         = 2006,
+  publisher    = {World Scientific},
+  doi          = {10.1142/6284}
+}
+\stopverb}
