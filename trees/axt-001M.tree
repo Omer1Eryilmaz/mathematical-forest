@@ -19,7 +19,8 @@
         \li{
           a function #{f \in \CC_1} is taken to be associate for the function
           #{F : \CC_n \to \NN} if for every #{G \in \CC_n} and for every
-          associate #{g} for #{G}, #{f\ |\ g = F(G)}.
+          associate #{g} for #{G}, #{f\ |\ g = F(G)}, where
+          #{{-}\ |\ {-}} denotes the [partial application operation](axt-001N).
         }
         \li{
           #{\CC_{n + 1}} is taken to be the set of functions #{\CC_n \to \NN}
