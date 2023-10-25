@@ -1,0 +1,33 @@
+\title{Adjunction (preliminary)}
+\date{2023-10-25}
+\taxon{definition}
+
+\def\CC{\mathbb{C}}
+\def\DD{\mathbb{D}}
+\def\One{\mathbf{1}}
+\texpackage{tikz-cd}
+
+\p{
+  Let #{\CC} and #{\DD} be two categories. An \em{adjunction} between
+  #{\CC} and #{\DD} consists of functors #{F : \CC \to \DD} and
+  #{U : \DD \to \CC} equipped with a natural transformation
+  ##{\eta : \One_{\CC} \to U \circ F} such that
+  \ul{
+    \li{
+      for any #{C \in \CC, D \in \DD} and any #{\CC}-morphism #{f : C \to U(D)},
+      there exists a #{\DD}-morphism #{g : F(C) \to D} unique with the property
+      of making the following diagram commute:
+      \tex{
+        \begin{tikzcd}
+          U(F(C)) \arrow[r, "U(g)"] & U(D)\\
+          C \arrow[u, "\eta_C"] \arrow[ur, "f"]
+        \end{tikzcd}
+      }
+    }
+  }
+}
+
+\p{
+  \b{Definition 9.1} from [[steve-awodey]]'s
+   [book on category theory](awodey-ct-book).
+}
