@@ -3,7 +3,6 @@
 \taxon{definition}
 \author{Samson Abramsky}
 \author{Achim Jung}
-\author{Ayberk Tosun}
 
 \def\Top{\mathbf{Top}}
 \def\Frm{\mathbf{Frm}}
