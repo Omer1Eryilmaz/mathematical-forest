@@ -2,13 +2,6 @@
 \author{dana-scott}
 \date{1976}
 \taxon{reference}
-
-\p{
-  \ul{
-    \li{[PDF](Skim:///Users/ayberkt/Dropbox/Reading/dss-dtal.pdf)}
-  }
-}
-
 \meta{bibtex}{\startverb%
 @book{dss-dtal,
   title     = {Data types as lattices},
@@ -20,3 +13,10 @@
   address   = {Oxford, UK},
 }
 \stopverb}
+
+\p{
+  \ul{
+    \li{[PDF](Skim:///Users/ayberkt/Dropbox/Reading/dss-dtal.pdf)}
+  }
+}
+
