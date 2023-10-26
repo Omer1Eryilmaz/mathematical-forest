@@ -6,11 +6,12 @@
 \tag{book}
 \meta{bibtex}{\startverb%
 @book{bridges-richman-varieties,
-  title        = {Varieties of constructive mathematics},
-  author       = {Bridges, Douglas S. and Richman, Fred},
-  series       = {{London} Mathematical Society Lecture Note Series, vol. 97},
-  isbn         = {9780511565663},
-  year         = {1987},
-  address      = {Cambridge}
+  title        = {Varieties of Constructive Mathematics},
+  author       = {Douglas Bridges and Fred Richman},
+  year         = 1987,
+  publisher    = {Cambridge University Press},
+  series       = {London Mathematical Society Lecture Note Series},
+  volume       = 97,
+  doi          = {10.1017/CBO9780511565663}
 }
 \stopverb}
