@@ -7,7 +7,7 @@
 \meta{bibtex}{\startverb%
 @book{bridges-richman-varieties,
   title        = {Varieties of Constructive Mathematics},
-  author       = {Douglas Bridges and Fred Richman},
+  author       = {Douglas, Bridges S. and Richman, Fred},
   year         = 1987,
   publisher    = {Cambridge University Press},
   series       = {London Mathematical Society Lecture Note Series},
