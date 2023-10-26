@@ -31,3 +31,7 @@
     }
   }
 }
+
+\p{
+  \b{Definition 2.4} from [[patch-mfps]].
+}
