@@ -3,6 +3,14 @@
 \author{Ayberk Tosun}
 \taxon{definition}
 
-\p{The domain #{\mathcal{P}(\mathbb{N})}, that [[dana-scott]] calls "the
-universal domain", is the [domain](axt-0003) consisting of all subsets of the
-set #{\mathbb{N}} ordered under inclusion.}
+\def\PP{\mathcal{P}}
+\def\NN{\mathbb{N}}
+
+\p{
+  The lattice #{(\PP(\NN), \subseteq)} of all subsets of #{\NN} ordered under
+  inclusion.
+}
+
+\p{
+  Introduced in \b{1976} by [[dana-scott]] in his paper [[dss-dtal]].
+}
