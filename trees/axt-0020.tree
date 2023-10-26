@@ -1,0 +1,78 @@
+\title{Note on order theory terminology in UF}
+\date{2023-10-26}
+\author{ayberkt}
+
+\def\UU{\mathcal{U}}
+\def\VV{\mathcal{V}}
+\def\WW{\mathcal{W}}
+
+\p{
+  In this note, I briefly summarize some discussions that I ([[ayberkt]]) have
+  had with [Tom de Jong](tom-de-jong) and [Martín Escardó](martin-escardo) and
+  present my proposal for changes to terminology in order theory in univalent
+}
+
+\p{
+  Similar terminology is used in
+  \ul{
+    \li{
+      the work [de Jong](tom-de-jong) and [Escardó](martin-escardo) on
+      order theory in univalent foundations; and
+    }
+    \li{
+      the work of [Tosun](ayberkt) and [Escardó](martin-escardo) on locale
+      theory in univalent foundations.
+    }
+  }
+}
+
+\p{
+  Let us first review the two most fundamental notions in the aforementioned
+  lines of research respectively.
+}
+
+\p{
+  In [de Jong](tom-de-jong)'s [thesis](tdj-thesis), we have the notion of a
+  #{\VV}-dcpo.
+}
+
+\transclude{axt-0021}
+
+\p{
+  Whereas in the [MFPS paper](patch-mfps) of [Tosun](ayberkt) and
+  [Escardó](martin-escardo), we have the notion of a
+  [#{(\UU, \VV, \WW)}-frame](axt-0008).
+}
+
+\transclude{axt-0008}
+
+\p{
+  Most locales that come up in practice are defined by #{(\UU^+, \UU,
+  \UU)}-frames, so this much generality is rarely needed. Such locales are
+  called [\b{large and locally small}](axt-0023).
+}
+
+\transclude{axt-0023}
+
+\p{
+  Central to our work with [Martín](martin-escardo) is the notion of a [spectral
+  locale](axt-0024). In impredicative foundations of mathematics, this notion
+  is defined as.
+}
+
+\p{
+  In both domain theory and locale theory, some notion of \b{basis} is needed.
+  In our previous work with [Martín](martin-escardo) on locale theory, we used
+  the following notion of \em{small basis}.
+}
+
+\transclude{axt-0022}
+
+\p{
+  Our experience has shown, however, that it might not have been correct to call
+  this notion “basis”. The problem is that there is a nontrivial structure
+  involved in this definition: the index set #{B} of the basis. Under certain
+  favourable conditions the basis of a locale (or resp. [dcpo](axt-0021)) is
+  \em{uniquely determined}. Because of this structure, however, this does not
+  work in our case.
+}
