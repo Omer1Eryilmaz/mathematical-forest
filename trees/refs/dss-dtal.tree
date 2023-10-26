@@ -2,7 +2,7 @@
 \author{dana-scott}
 \year{1976}
 \meta{bibtex}{\startverb%
-@book{dss-data-types-as-lattices,
+@book{dss-dtal,
 	title     = {Data types as lattices},
 	author    = {Scott, Dana S.},
 	year      = {1976},
