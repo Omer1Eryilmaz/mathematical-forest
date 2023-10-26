@@ -1,15 +1,14 @@
-\title{Idea of domains}
+\title{Intuition on the notion of a domain}
 \date{2023-08-18}
-\author{Ayberk Tosun}
+\author{ayberkt}
 
 \p{
-  In the words of [Martín Escardó](martinhescardo): A \em{domain} is a set of
+  In the words of [Martín Escardó](martin-escardo): A \em{domain} is a set of
   concrete finite elements together with infinite, ideal elements such that the
   ideal elements are characterised uniquely by their finite approximations.
 }
 
 \p{
-  There are different ways of capturing this mathematically, to varying degrees
-  of precision. These include [continuous](axt-0006A) and [algebraic](axt-0006B)
-  dcpos.
+  There are different ways of capturing this mathematically, to varying degrees of
+  precision. These include [continuous](axt-001T) and [algebraic](axt-001S) dcpos.
 }
