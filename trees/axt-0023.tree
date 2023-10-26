@@ -1,0 +1,12 @@
+\title{Large and locally small locale}
+\date{2023-10-26}
+\taxon{definition}
+\author{martin-escardo}
+\author{ayberkt}
+
+\def\UU{\mathcal{U}}
+
+\p{
+  A locale #{X} is called \em{large and locally small} if it is given by
+  a #{(\UU^+, \UU, \UU)}-frame.
+}
