@@ -1,0 +1,8 @@
+\title{Scott locale of a dcpo}
+\date{2023-10-26}
+\taxon{definition}
+
+\p{
+  The Scott locale of a dcpo #{D} is the locale given by the frame of opens
+  of the [Scott space](axt-001X) of #{D}.
+}
