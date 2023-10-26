@@ -1,14 +1,22 @@
 \title{Data types as lattices}
 \author{dana-scott}
-\year{1976}
+\date{1976}
+\taxon{reference}
+
+\p{
+  \ul{
+    \li{[PDF](Skim:///Users/ayberkt/Dropbox/Reading/dss-dtal.pdf)}
+  }
+}
+
 \meta{bibtex}{\startverb%
 @book{dss-dtal,
-	title     = {Data types as lattices},
-	author    = {Scott, Dana S.},
-	year      = {1976},
-	series    = {Technical monograph (Oxford University Computing Laboratory. Programming Research Group); PRG-5},
-	publisher = {Oxford University Computing Laboratory, Programming Research Group},
-	isbn      = {9780902928107},
+  title     = {Data types as lattices},
+  author    = {Scott, Dana S.},
+  date      = {1976},
+  series    = {Technical monograph (Oxford University Computing Laboratory. Programming Research Group); PRG-5},
+  publisher = {Oxford University Computing Laboratory, Programming Research Group},
+  isbn      = {9780902928107},
   address   = {Oxford, UK},
 }
 \stopverb}
