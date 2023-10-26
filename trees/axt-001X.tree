@@ -1,0 +1,11 @@
+\title{Scott space of a dcpo}
+\date{2023-10-26}
+\taxon{definition}
+
+\def\Scott[D]{\sigma(\D)}
+
+\p{
+  Let #{(D, \sqsubseteq)} be a dcpo. The \em{Scott space} of #{D} is the
+  topological space #{(D, \Scott{D})} whose open sets are given by the class
+  #{\Scott{D}} of [Scott opens](axt-001Y) of #{D}.
+}
