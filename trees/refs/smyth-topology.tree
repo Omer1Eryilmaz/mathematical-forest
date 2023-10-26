@@ -2,16 +2,14 @@
 \date{1993}
 \taxon{reference}
 \author{mike-smyth}
-\tag{book}
 \meta{bibtex}{\startverb%
 @incollection{smyth-topology,
   title      = {Topology},
-  booktitle  = {Handbook of {{Logic}} in {{Computer Science}} ({{Vol}}. 1)},
+  booktitle  = {Handbook of {Logic} in {{Computer Science}} ({Vol}. 1)},
   author     = {Smyth, Michael B.},
   date       = {1993},
   pages      = {641--761},
-  publisher  = {{Oxford University Press, Inc.}},
-  location   = {{USA}},
+  publisher  = {Oxford University Press, Inc.},
   isbn       = {0-19-853735-2},
 }
 \stopverb}
