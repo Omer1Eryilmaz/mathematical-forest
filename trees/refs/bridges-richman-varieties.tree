@@ -8,7 +8,7 @@
 @book{bridges-richman-varieties,
   title        = {Varieties of Constructive Mathematics},
   author       = {Bridges, Douglas S. and Richman, Fred},
-  year         = 1987,
+  date         = {1987},
   publisher    = {Cambridge University Press},
   series       = {London Mathematical Society Lecture Note Series},
   volume       = 97,
