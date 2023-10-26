@@ -1,0 +1,28 @@
+\title{Spectral locale}
+\date{2023-10-26}
+\author{peter-johnstone}
+\taxon{definition}
+
+\import{axt-000M}
+
+\p{
+  A locale #{X} is called \em{spectral} if it satisfies the following two
+  conditions.
+  \ol{
+    \li{
+      Every open of #{X} is expressible as a join of compact opens of #{X}.
+    }
+    \li{
+      The set of compact elements of #{X} forms a sub-meet-semilattice of
+      the frame #{\opens{X}}.
+    }
+  }
+  Notes:
+  \ul{
+    \li{
+      Defined in \b{Paragraph 3.2} of [[ptj-stone-spaces]]. He calls this notion
+      “coherent” locale.
+    }
+  }
+}
+
