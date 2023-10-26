@@ -57,7 +57,7 @@
 \p{
   Central to our work with [Martín](martin-escardo) is the notion of a [spectral
   locale](axt-0024). In impredicative foundations of mathematics, this notion
-  is defined as.
+  is defined as in the following.
 }
 
 \p{
@@ -73,6 +73,19 @@
   this notion “basis”. The problem is that there is a nontrivial structure
   involved in this definition: the index set #{B} of the basis. Under certain
   favourable conditions the basis of a locale (or resp. [dcpo](axt-0021)) is
-  \em{uniquely determined}. Because of this structure, however, this does not
-  work in our case.
+  \em{uniquely determined}. Because of this nontrivial structure, however, this
+  does not work in our case.
+}
+
+\p{
+  \b{Proposed change 1}. Rename [what we have been calling “small
+  basis”](axt-0022) so far to \em{“basis description”}.
+  \ul{
+    \li{
+      The idea is that there might be two different descriptions for the same
+      basis, and it is not surprising that these are not the same. This is
+      completely natural. The reason it seems surprising is that we called the
+      wrong thing “basis”.
+    }
+  }
 }
