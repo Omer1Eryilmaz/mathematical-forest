@@ -1,7 +1,7 @@
 \title{The Stone adjunction}
 \date{2023-09-07}
 \author{Samson Abramsky}
-\author{Achim Jung}
+\author{achim-jung}
 
 \def\Top{\mathbf{Top}}
 \def\Frm{\mathbf{Frm}}
