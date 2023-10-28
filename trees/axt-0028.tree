@@ -11,5 +11,5 @@
 \p{
   Let #{D} be a [#{\VV}-dcpo](axt-0021). A \em{small extensional basis} for #{D}
   is a [small intensional basis](axt-0022) #{(B, \beta)} with the additional
-  requirement that #{\beta} be injective.
+  requirement that #{\beta} be embedding.
 }
