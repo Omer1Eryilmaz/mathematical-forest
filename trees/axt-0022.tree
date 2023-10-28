@@ -1,4 +1,4 @@
-\title{Small basis for a #{(U, V, W)}-locale}
+\title{Intensional basis for a dcpo in UF}
 \date{2023-10-26}
 \taxon{definition}
 \author{ayberkt}
@@ -10,17 +10,9 @@
 \import{axt-000M}
 
 \p{
-  Let #{X} be a #{(\UU, \VV, \WW)}-locale. A \em{basis for #{X}} is a
-  #{\WW}-family #{(B, \beta)} on #{\opens{X}} satisfying the following conditions.
-  \ol{
-    \li{
-      For every open #{U : \opens{X}}, there is a #{\WW}-family #{(K_U,
-      \kappa_U)} on the basis index #{B}, satisfying
-      ##{U = \bigvee_{k : K_U} \beta(\kappa_U(k)).}
-    }
-    \li{
-      Each family #{(K_U, \kappa_U)}, whose existence is stipulated by the
-      previous condition, is also directed.
-    }
-  }
+  Let #{D} be a [#{\VV}-dcpo](axt-0021). An \em{intensional basis for #{D}} is a
+  #{\VV}-family #{(B, \beta)} on #{D} satisfying the condition: for every
+  element #{x : D}, there is a specified directed [#{\VV}-family](axt-001F)
+  #{(K_x, \kappa_x)} on the basis index #{B} such that ##{x = \bigvee (K_x,
+  \beta \circ \kappa_x)}
 }
