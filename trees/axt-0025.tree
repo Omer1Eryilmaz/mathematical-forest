@@ -3,6 +3,7 @@
 \taxon{definition}
 \author{martin-escardo}
 \author{davorin-lesnik}
+\meta{source}{\b{Defn. 2.4} of [[Leš2010]](lesnik-thesis)}
 
 \def\EE{\mathcal{E}}
 
@@ -10,8 +11,4 @@
   A \em{model of synthetic topology} is a topos #{\EE} with a chosen subobject
   #{\Sigma \subseteq \Omega} of the subobject classifier, called the
   \em{Sierpiński object}.
-  \ul{
-    \li{Originally due to [[martin-escardo]], written down in an unpublished note.}
-    \li{\b{Definition 2.4} from [[davorin-lesnik]]'s PhD thesis.}
-  }
 }
