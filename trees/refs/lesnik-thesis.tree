@@ -1,0 +1,17 @@
+\title{Synthetic Topology and Constructive Metric Spaces}
+\author{davorin-lesnik}
+\date{2010}
+\taxon{reference}
+
+\meta{bibtex}{\startverb%
+@thesis{lesnik-thesis,
+  title         = {Synthetic {Topology} and {Constructive Metric Spaces}},
+  author        = {Lešnik, Davorin},
+  date          = {2010},
+  archivePrefix = {arXiv},
+  primaryClass  = {math.GN},
+  eprint        = {2104.10399},
+  institution   = {{University of Ljubljana}},
+  location      = {Ljubljana, Slovenia},
+}
+\stopverb}
