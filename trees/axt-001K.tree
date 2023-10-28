@@ -12,7 +12,7 @@
   we have a specified directed [#{\VV}-family](axt-001F) #{(I, \alpha)}
   satisfying the following conditions.
   \ol{
-    \li{#{(I, \alpha)} is a directed family.}
+    \li{#{(I, \alpha)} is directed.}
     \li{#{x} is the supremum of #{(I, \alpha)}.}
     \li{Every #{\alpha(i)} given by #{(I, \alpha)} is way below #{x}.}
   }
