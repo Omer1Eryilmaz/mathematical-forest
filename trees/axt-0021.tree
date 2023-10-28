@@ -1,6 +1,7 @@
 \title{#{\mathcal{V}}-dcpo}
 \date{2023-10-26}
 \taxon{definition}
+\meta{source}{\b{Defn. 3.2.7} of ([[TdJ]](tdj-thesis), [#{\dagger}](https://www.cs.bham.ac.uk//~mhe/TypeTopology/DomainTheory.Basics.Dcpo.html#4941))}
 \author{tom-de-jong}
 \author{martin-escardo}
 
@@ -11,11 +12,5 @@
 \p{
   Let #{\VV} be a universe. A poset #{D} is a \em{#{\VV}-dcpo} if the join of
   of every [#{\VV}-family](axt-001F) on set #{D} exists in #{D}.
-}
-
-\p{
-  \ul{
-    \li{From \b{Definition 3.2.7} of [[tom-de-jong]]'s [PhD thesis](tdj-thesis)}
-    \li{[\b{Definition in Agda}](https://www.cs.bham.ac.uk//~mhe/TypeTopology/DomainTheory.Basics.Dcpo.html#4941)}
-  }
+ 
 }
