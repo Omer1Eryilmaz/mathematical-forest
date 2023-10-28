@@ -1,0 +1,15 @@
+\title{Small extensional basis}
+\date{2023-10-28}
+\author{tom-de-jong}
+\author{martin-escardo}
+\author{ayberkt}
+
+\def\UU{\mathcal{U}}
+\def\VV{\mathcal{V}}
+\def\WW{\mathcal{W}}
+
+\p{
+  Let #{D} be a [#{\VV}-dcpo](axt-0021). A \em{small extensional basis} for #{D}
+  is a [small intensional basis](axt-0022) #{(B, \beta)} with the additional
+  requirement that #{\beta} be injective.
+}
