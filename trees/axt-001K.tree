@@ -1,5 +1,6 @@
-\title{Structurally continuous dcpo}
+\title{Intensionally continuous dcpo}
 \date{2023-10-24}
+\meta{source}{\b{Defn 4.4.1} of [de Jong](tom-de-jong)'s [PhD thesis](tdj-thesis)}
 \author{tom-de-jong}
 \taxon{definition}
 
@@ -15,8 +16,4 @@
     \li{#{x} is the supremum of #{(I, \alpha)}.}
     \li{Every #{\alpha(i)} given by #{(I, \alpha)} is way below #{x}.}
   }
-}
-
-\p{
-  \b{Definition 4.4.1} of [[tom-de-jong]]'s [PhD thesis](tdj-thesis).
 }
