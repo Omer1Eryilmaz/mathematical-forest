@@ -1,0 +1,17 @@
+\title{Model of synthetic topology}
+\date{2023-10-28}
+\taxon{definition}
+\author{martin-escardo}
+\author{davorin-lesnik}
+
+\def\EE{\mathcal{E}}
+
+\p{
+  A \em{model of synthetic topology} is a topos #{\EE} with a chosen subobject
+  #{\Sigma \subseteq \Omega} of the subobject classifier, called the
+  \em{Sierpiński object}.
+  \ul{
+    \li{Originally due to [[martin-escardo]], written down in an unpublished note.}
+    \li{\b{Definition 2.4} from [[davorin-lesnik]]'s PhD thesis.}
+  }
+}
