@@ -1,5 +1,6 @@
 \title{Frame (type-theoretic)}
 \date{2023-08-19}
+\meta{source}{\b{Defn. 2.4} from [[patch-mfps]]}
 \author{ayberkt}
 \author{martin-escardo}
 \taxon{definition}
@@ -31,8 +32,4 @@
       for every #{U : |L|} and #{\WW}-family #{\{ V_i \}_{i : I}} in #{|L|}.
     }
   }
-}
-
-\p{
-  \b{Definition 2.4} from [[patch-mfps]].
 }
