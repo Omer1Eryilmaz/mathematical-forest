@@ -13,6 +13,6 @@
   Let #{D} be a [#{\VV}-dcpo](axt-0021). An \em{intensional basis for #{D}} is a
   #{\VV}-family #{(B, \beta)} on #{D} satisfying the condition: for every
   element #{x : D}, there is a specified directed [#{\VV}-family](axt-001F)
-  #{(K_x, \kappa_x)} on the basis index #{B} such that ##{x = \bigvee (K_x,
-  \beta \circ \kappa_x)}
+  #{(K_x, \kappa_x)} on the basis index #{B} such that
+  #{x = \bigvee (K_x, \beta \circ \kappa_x).}
 }
