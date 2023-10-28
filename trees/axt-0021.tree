@@ -12,5 +12,4 @@
 \p{
   Let #{\VV} be a universe. A poset #{D} is a \em{#{\VV}-dcpo} if the join of
   of every [#{\VV}-family](axt-001F) on set #{D} exists in #{D}.
- 
 }
