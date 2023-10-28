@@ -1,6 +1,8 @@
 \title{Small intensional basis for a dcpo in UF}
 \date{2023-10-26}
 \taxon{definition}
+\author{tom-de-jong}
+\author{martin-escardo}
 \author{ayberkt}
 
 \def\UU{\mathcal{U}}
