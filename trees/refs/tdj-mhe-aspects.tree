@@ -1,0 +1,20 @@
+\title{Predicative Aspects of Order Theory in Univalent Foundations}
+\author{tom-de-jong}
+\author{martin-escardo}
+\date{2021}
+\taxon{reference}
+
+\meta{bibtex}{\startverb%
+@InProceedings{deJongEscardo2021b,
+  author       = {de Jong, Tom and Escard\'o, Mart\'in H\"otzel},
+  title        = {Predicative Aspects of Order Theory in Univalent Foundations},
+  booktitle    = {6th International Conference on Formal Structures for Computation and Deduction (FSCD 2021)},
+  pages        = {8:1--8:18},
+  series       = {Leibniz International Proceedings in Informatics (LIPIcs)},
+  year         = 2021,
+  volume       = 195,
+  editor       = {Kobayashi, Naoki},
+  publisher    = {Schloss Dagstuhl--Leibniz-Zentrum f\"ur Informatik},
+  doi          = {10.4230/LIPIcs.FSCD.2021.8},
+}
+\stopverb}
