@@ -8,12 +8,6 @@
 \def\WayBelow{\ll}
 
 \p{
-  A #{\VV}-dcpo #{D} is \em{structurally continuous} if for every #{x : D},
-  we have a specified directed [#{\VV}-family](axt-001F) #{(I, \alpha)}
-  satisfying the following conditions.
-  \ol{
-    \li{#{(I, \alpha)} is directed.}
-    \li{#{x} is the supremum of #{(I, \alpha)}.}
-    \li{Every #{\alpha(i)} given by #{(I, \alpha)} is way below #{x}.}
-  }
+  A #{\VV}-dcpo #{D} is \em{intensionally continuous} if there is a specified
+  [continuous presentation](axt-002H) for it.
 }
