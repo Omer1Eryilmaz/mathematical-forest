@@ -1,0 +1,19 @@
+\title{Algebraic presentation for a [#{\mathcal{V}}-dcpo](axt-0021)}
+\date{2023-10-29}
+\author{tom-de-jong}
+\author{martin-escardo}
+
+\def\UU{\mathcal{U}}
+\def\VV{\mathcal{V}}
+\def\WW{\mathcal{W}}
+
+\p{
+  An \em{algebraic presentation} for a [#{\VV}-dcpo](axt-0021) #{D}
+  function giving, for every #{x : D}, is a specified [#{\VV}-family](axt-001F)
+  #{(K_x, \kappa_x)} on #{D} such that
+  \ol{
+    \li{#{(K_x, \kappa_x)} is directed.}
+    \li{#{x} is the supremum of #{(K_x, \kappa_x)}.}
+    \li{Each #{\kappa_x(k)} given by the #{(K_x, \kappa_x)} is compact.}
+  }
+}
