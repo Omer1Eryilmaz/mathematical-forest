@@ -1,0 +1,17 @@
+\title{Intensional algebraic basis for a #{\mathcal{V}}-dcpo}
+\date{2023-10-29}
+\author{tom-de-jong}
+\author{martin-escardo}
+
+\def\compact[x]{\mathsf{compact}(\x)}
+\def\UU{\mathcal{U}}
+\def\VV{\mathcal{V}}
+\def\WW{\mathcal{W}}
+
+\p{
+  An \em{intensional algebraic basis} for a #{\VV}-dcpo #{D} is a [small
+  intensional basis](axt-0022) #{(B, \beta)} with the further requirement that
+  for every #{x : D}, the directed [#{\VV}-family](axt-001F) #{(K_x,
+  \kappa_x)} given by the basis satisfies the condition
+  ##{\forall k : K_x.\ \compact{\beta(\kappa_x(k))}.}
+}
