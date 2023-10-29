@@ -1,0 +1,10 @@
+\title{Continuous [#{\mathcal{V}}-dcpo](axt-0021)}
+\taxon{definition}
+\date{2023-10-29}
+\author{tom-de-jong}
+\author{martin-escardo}
+
+\p{
+  A [#{\mathcal{V}}-dcpo](axt-0021) is called \em{continuous} if there merely
+  exists a [continuous presentation](axt-002H) for it.
+}
