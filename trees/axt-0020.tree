@@ -1,87 +1,10 @@
-\title{Note on order theory terminology in UF}
+\title{Summary of order-theoretic terminology in UF}
 \date{2023-10-26}
-\author{ayberkt}
-
-\def\UU{\mathcal{U}}
-\def\VV{\mathcal{V}}
-\def\WW{\mathcal{W}}
-
-\p{
-  In this note, I briefly summarize some discussions that I ([[ayberkt]]) have
-  had with [Tom de Jong](tom-de-jong) and [Martín Escardó](martin-escardo) and
-  present my proposal for changes to order-theoretic terminology in UF.
-}
-
-\p{
-  Similar order-theoretic terminology is used in
-  \ul{
-    \li{
-      the work [[1](tdj-thesis); [2](tdj-mhe-aspects)] [de Jong](tom-de-jong)
-      and [Escardó](martin-escardo) on order and domain theory in univalent
-      foundations; and
-    }
-    \li{
-      the work [[3](patch-mfps)] of [Tosun](ayberkt) and
-      [Escardó](martin-escardo) on locale theory in univalent foundations.
-    }
-  }
-}
-
-\p{
-  Recall [de Jong](tom-de-jong) and [Escardó](martin-escardo)'s notion of
-  [#{\VV}-dcpo](axt-0021).
-}
-
-\transclude{axt-0021}
-
-\p{
-  The analogous fundamental notion in the work of [Tosun](ayberkt) and
-  [Escardó](martin-escardo)'s work on locale theory in UF is that of a [#{(\UU,
-  \VV, \WW)}-frame](axt-0008).
-}
-
-\transclude{axt-0008}
-
-\p{
-  A fundamental notion that arises in both of these lines of research is that
-  of a \em{basis} for the respective notion of lattice in consideration. Even
-  though the notion of lattice in consideration varies, the notion of basis
-  does not.
-}
 
 \transclude{axt-0022}
 
-\p{
-  This vanilla notion of basis is not made explicit in [de Jong](tom-de-jong)'s
-  thesis because in domain theory one is usually interested in bases of either
-  compact or \em{relatively} compact elements meaning bases without these
-  conditions do not come up. For the reason behind this, see the [intuition on
-  domains](axt-0003). I find it useful, however, to factor out this notion into
-  a definition of its own because it does come up in locale theory and topology.
-}
+\transclude{axt-0029}
 
-\p{
-  This is called an “intensional basis” in contrast to an “extensional basis”,
-  a notion that none of us have made explicit so far.
-}
-
-\p{
-  In [de Jong](tom-de-jong)'s thesis, the term “structurally continuous” is used
-  for the following notion.
-}
+\transclude{axt-0028}
 
 \transclude{axt-001K}
-
-\p{
-  Once the notion of [intensional basis](axt-0022) has been pinned down, then
-  the notion of a structurally continuous dcpo can be expressed simply as a
-  [#{\VV}-dcpo](axt-0021) #{D} with an intensional basis #{(B, \beta)}
-  satisfying the further condition that for every #{x \in D}, the specified
-  covering family #{(K_x, \beta \circ \kappa_x)} consists of elements that are
-  \em{way below} #{x} i.e. #{\forall k \in K_x.\ \beta(\kappa_x(k)) \ll x}.
-}
-
-\p{
-  The new term that we will be using for this is “intensionally continuous
-  dcpo”.
-}
