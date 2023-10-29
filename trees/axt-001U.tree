@@ -1,4 +1,5 @@
 \title{Basis for a dcpo}
+\meta{source}{\b{Defn 2.2.3} of [Abramsky and Jung](abramsky-jung-domain-theory-1995)}
 \date{2023-10-26}
 \author{samson-abramsky}
 \author{achim-jung}
@@ -19,9 +20,4 @@
 
 \p{
   Elements of #{x} are caled approximants to #{x} relative to #{B}.
-}
-
-\p{
-  \b{Definition 2.2.3} from [Abramsky](samson-abramsky) and [Jung](achim-jung)'s
-  [[abramsky-jung-domain-theory-1995]].
 }
