@@ -1,0 +1,15 @@
+\title{Intensionally pseudocontinuous [#{\mathcal{V}}-dcpo](axt-0021)}
+\date{2023-10-29}
+\author{tom-de-jong}
+\author{martin-escardo}
+
+\def\UU{\mathcal{U}}
+\def\VV{\mathcal{V}}
+\def\WW{\mathcal{W}}
+
+\p{
+  A \em{pseudocontinuous} [#{\VV}-dcpo](axt-0021) is the analogue of the notion
+  of an [intensionally continuous dcpo](axt-001K) in which the requirement of a
+  specified directed [#{\VV}-family](axt-001F) is replaced by mere existence of
+  such a directed family.
+}
