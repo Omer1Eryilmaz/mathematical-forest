@@ -1,11 +1,11 @@
-\title{Algebraic dcpo in UF (alternative)}
+\title{Algebraic}
 \date{2023-10-24}
 \author{tom-de-jong}
+\author{martin-escardo}
 
 \def\VV{\mathcal{V}}
-\def\KK[x]{\mathsf{KK}_{\x}}
 
 \p{
-  A #{\VV}-dcpo #{D} is called \em{algebraic} if
-  the type ##{\KK{x} \is}
+  A [#{\VV}-dcpo](axt-0021) #{D} is called \em{algebraic} if there merely exists
+  an [algebraic presentation](axt-002B) for it.
 }
