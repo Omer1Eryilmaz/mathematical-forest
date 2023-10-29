@@ -11,6 +11,7 @@
 \p{
   A \em{pseudocontinuous} [#{\VV}-dcpo](axt-0021) is the analogue of the notion
   of an [intensionally continuous dcpo](axt-001K) in which the requirement of a
-  specified directed [#{\VV}-family](axt-001F) is replaced by mere existence of
-  such a directed family.
+  specified directed [#{\VV}-family](axt-001F) (given by the stipulated
+  [continuous presentation](axt-002H) for it) is weakend to a requirement of
+  mere existence.
 }
