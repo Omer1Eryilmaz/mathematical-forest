@@ -9,7 +9,7 @@
 \def\WW{\mathcal{W}}
 
 \p{
-  An \em{algebraic presentation} for a [#{\VV}-dcpo](axt-0021) #{D} is a
+  An \em{continuous presentation} for a [#{\VV}-dcpo](axt-0021) #{D} is a
   function giving, for every #{x : D}, a specified [#{\VV}-family](axt-001F)
   #{(K_x, \kappa_x)} on #{D} satisfying the following conditions.
   \ol{
