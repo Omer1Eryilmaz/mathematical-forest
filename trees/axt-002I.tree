@@ -5,6 +5,6 @@
 \author{martin-escardo}
 
 \p{
-  A [#{\mathcal{V}}-dcpo](axt-0021) is called \em{continuous} if there merely
-  exists a [continuous presentation](axt-002H) for it.
+  A [#{\mathcal{V}}-dcpo](axt-0021) is called \em{continuous} if there exists a
+  [continuous presentation](axt-002H) for it.
 }

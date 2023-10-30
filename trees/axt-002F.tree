@@ -10,9 +10,7 @@
 \def\WW{\mathcal{W}}
 
 \p{
-  An \em{intensional algebraic basis} for a #{\VV}-dcpo #{D} is a [small
-  intensional basis](axt-0022) #{(B, \beta)} with the further requirement that
-  for every #{x : D}, the directed [#{\VV}-family](axt-001F) #{(K_x,
-  \kappa_x)} given by the basis satisfies the condition
-  ##{\forall k : K_x.\ \compact{\beta(\kappa_x(k))}.}
+  An \em{intensional algebraic basis} for a #{\VV}-dcpo #{D} is an [intensional
+  basis](axt-0022) #{(B, \beta)} satisfying
+  ##{\forall b : B.\ \compact{\beta(b)}.}
 }

@@ -9,12 +9,12 @@
 \def\WW{\mathcal{W}}
 
 \p{
-  An \em{algebraic presentation} for a [#{\VV}-dcpo](axt-0021) #{D}
-  function giving, for every #{x : D}, is a specified [#{\VV}-family](axt-001F)
+  An \em{algebraic presentation} for a [#{\VV}-dcpo](axt-0021) #{D} is a
+  function giving, for every #{x : D}, a specified [#{\VV}-family](axt-001F)
   #{(K_x, \kappa_x)} on #{D} such that
   \ol{
-    \li{#{(K_x, \kappa_x)} is directed.}
-    \li{#{x} is the supremum of #{(K_x, \kappa_x)}.}
-    \li{Each #{\kappa_x(k)} given by the #{(K_x, \kappa_x)} is compact.}
+    \li{The family #{(K_x, \kappa_x)} is directed.}
+    \li{The element #{x} is the supremum of #{(K_x, \kappa_x)}.}
+    \li{For each #{k : K_x}, #{\kappa_x(k)} is compact.}
   }
 }

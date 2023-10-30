@@ -8,6 +8,6 @@
 \def\WayBelow{\ll}
 
 \p{
-  A #{\VV}-dcpo #{D} is \em{intensionally continuous} if there is a specified
-  [continuous presentation](axt-002H) for it.
+  A [#{\VV}-dcpo #{D}](axt-0021) is \em{intensionally continuous} if there is a
+  specified [continuous presentation](axt-002H) for it.
 }

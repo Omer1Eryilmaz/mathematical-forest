@@ -1,4 +1,4 @@
-\title{Small extensional domain basis for a #{\mathcal{V}}-dcpo}
+\title{Extensional continuous basis for a #{\mathcal{V}}-dcpo}
 \taxon{definition}
 \date{2023-10-29}
 \author{tom-de-jong}
@@ -9,9 +9,8 @@
 \def\WW{\mathcal{W}}
 
 \p{
-  A \em{small extensional domain basis} for a #{\VV}-dcpo #{D} is a [small
-  extensional basis](axt-0022) #{(B, \beta)} with the further requirement that
-  for every #{x : D}, the directed [#{\VV}-family](axt-001F) #{(K_x,
-  \kappa_x)} given by the basis satisfies the condition
-  ##{\forall k : K_x.\ \beta(\kappa_x(k)) \ll x.}
+  An \em{extensional continuous basis} for a #{\VV}-dcpo #{D} is an [extensional
+  basis](axt-0028) #{(B, \beta)} with the further requirement that for every #{x
+  : D}, the directed [#{\VV}-family](axt-001F) #{(K_x, \kappa_x)} given by the
+  basis satisfies the condition ##{\forall k : K_x.\ \beta(\kappa_x(k)) \ll x.}
 }
