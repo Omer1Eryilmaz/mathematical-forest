@@ -1,0 +1,19 @@
+\title{The dominance axiom}
+\taxon{definition}
+\date{2023-10-30}
+\author{pino-rosolini}
+\meta{source}{\b{Defn. 2.24} of [Lešnik](lesnik-thesis)}
+
+\def\EE{\mathcal{E}}
+
+\p{
+  Let #{(\EE, \Sigma)} be a [model of synthetic topology](axt-0025). The
+  Sierpiński object #{\Sigma} is called a \em{dominance} if it satisfies
+  \ul{
+    \li{#{\top \in \Sigma}}
+    \li{
+      #{\forall u \in \Sigma.\ \forall p \in \Omega.\ (u \rightarrow p \in \Sigma)
+       \rightarrow (u \wedge p) \in \Sigma}
+    }
+  }
+}
