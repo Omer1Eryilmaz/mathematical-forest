@@ -1,7 +1,8 @@
 \title{Scott domain}
-\date{2023-09-06}
-\author{dana-scott}
 \taxon{definition}
+\author{dana-scott}
+\meta{source}{\b{Theorem 11.5} of [Streicher](dtfofp)}
+\date{2023-09-06}
 
 \def\KK{\mathcal{K}}
 
@@ -11,8 +12,4 @@
     \li{[algebraic](axt-001S), and}
     \li{[bounded complete](axt-001R).}
   }
-}
-
-\p{
-  The definition here follows \b{Theorem 11.5} from [[dtfofp]].
 }
