@@ -1,4 +1,4 @@
-\title{Continuous presentation for a [#{\mathcal{V}}-dcpo](axt-0021)}
+\title{Continuity data for a [#{\mathcal{V}}-dcpo](axt-0021)}
 \taxon{definition}
 \date{2023-10-29}
 \author{tom-de-jong}
@@ -9,9 +9,9 @@
 \def\WW{\mathcal{W}}
 
 \p{
-  A \em{continuous presentation} for a [#{\VV}-dcpo](axt-0021) #{D} is a
-  function giving, for every #{x : D}, a specified [#{\VV}-family](axt-001F)
-  #{(K_x, \kappa_x)} on #{D} satisfying the following conditions.
+  A \em{continuous data} for a [#{\VV}-dcpo](axt-0021) #{D} is a function
+  giving, for every #{x : D}, a specified [#{\VV}-family](axt-001F) #{(K_x,
+  \kappa_x)} on #{D} satisfying the following conditions.
   \ol{
     \li{The family #{(K_x, \kappa_x)} is directed.}
     \li{The element #{x} is the supremum of #{(K_x, \kappa_x)}.}
