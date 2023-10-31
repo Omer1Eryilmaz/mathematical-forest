@@ -6,5 +6,5 @@
 
 \p{
   A [#{\mathcal{V}}-dcpo](axt-0021) is called \em{continuous} if there exists a
-  [continuous presentation](axt-002H) for it.
+  [continuity datum](axt-002H) for it.
 }

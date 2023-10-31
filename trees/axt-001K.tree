@@ -1,13 +1,12 @@
-\title{[#{\mathcal{V}}-dcpo](axt-0021) equipped with continuity data}
 \date{2023-10-24}
 \meta{source}{\b{Defn 4.4.1} of [de Jong](tom-de-jong)'s [PhD thesis](tdj-thesis)}
 \author{tom-de-jong}
-\taxon{definition}
+\taxon{proposition}
 
 \def\VV{\mathcal{V}}
 \def\WayBelow{\ll}
 
 \p{
-  A [#{\VV}-dcpo #{D}](axt-0021) is \em{intensionally continuous} if there is a
-  specified [continuous presentation](axt-002H) for it.
+  A [#{\VV}-dcpo](axt-0021) #{D} having a specified [continuity datum](axt-002H)
+  is the same thing as #{D} being [structurally continuous](axt-0027).
 }

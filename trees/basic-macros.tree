@@ -1,0 +1,6 @@
+\title{Basic macros}
+\date{2023-10-31}
+
+\def\UU{\mathcal{U}}
+\def\VV{\mathcal{V}}
+\def\WW{\mathcal{W}}

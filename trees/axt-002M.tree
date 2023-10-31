@@ -1,0 +1,60 @@
+\title{Domain-theoretic terminology in UF}
+\date{2023-10-31}
+\author{tom-de-jong}
+\author{martin-escardo}
+\author{ayberkt}
+
+\import{basic-macros}
+
+\p{
+  In [[tom-de-jong]]'s [thesis](tdj-thesis) and his Agda formalization of domain
+  theory, the term “structurally continuous” is used as follows: a
+  [#{\VV}-dcpo](axt-0021) #{D}, is called \em{structurally continuous} if it is
+  equipped with a function giving, for every #{x : D}, a small directed family
+  of elements way below #{x} giving #{x} as its join.
+}
+
+\p{
+  In the new terminology, this notion of “structure” involved in the continuity
+  of a dcpo is made explicit by the following notion.
+}
+
+\transclude{axt-002H}
+
+\p{
+  Factored this out into a definition of its own obviates the need to have a
+  name for the notion of “#{\VV}-dcpo having a specified continuity datum”. Even
+  though the equivalence between [structurally continuous](axt-0027) and “having
+  a specified [continuity datum](axt-002H)” is completely trivial, we still
+  record this in the following proposition to be able to explicitly refer to this
+  terminological identity.
+}
+
+\transclude{axt-001K}
+
+\p{
+  By replacing the specified existence here with mere existence, we obtain the
+  notion of a [continuous #{\VV}-dcpo](axt-002I). The terminology for this is
+  unchanged (i.e. the same as the terminology of [[tom-de-jong]]'s
+  [thesis](tdj-thesis)).
+}
+
+\transclude{axt-002I}
+
+\transclude{axt-0029}
+
+\transclude{axt-002D}
+
+\transclude{axt-002E}
+
+\transclude{axt-002B}
+
+\transclude{axt-002A}
+
+\transclude{axt-001L}
+
+\transclude{axt-002C}
+
+\transclude{axt-002F}
+
+\transclude{axt-002G}
