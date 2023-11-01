@@ -4,14 +4,12 @@
 \author{tom-de-jong}
 \author{martin-escardo}
 
-\def\UU{\mathcal{U}}
-\def\VV{\mathcal{V}}
-\def\WW{\mathcal{W}}
+\import{basic-macros}
 
 \p{
   A \em{pseudocontinuous} [#{\VV}-dcpo](axt-0021) is the same thing as a
-  [dcpo](axt-001K) with a specified continuity datum, but with the requirement
-  of a specified directed [#{\VV}-family](axt-001F) (given by the stipulated
-  [continuous presentation](axt-002H) for it) weakened to a requirement of mere
+  [#{\VV}-dcpo](axt-0021) [with a specified continuity datum](axt-001K), but
+  with the requirement of a specified directed [#{\VV}-family](axt-001F) (given
+  by the [continuity datum](axt-002H)) weakened to a requirement of mere
   existence.
 }
