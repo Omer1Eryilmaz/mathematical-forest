@@ -4,10 +4,7 @@
 \author{tom-de-jong}
 \author{martin-escardo}
 
-\def\compact[x]{\mathsf{compact}(\x)}
-\def\UU{\mathcal{U}}
-\def\VV{\mathcal{V}}
-\def\WW{\mathcal{W}}
+\import{basic-macros}
 
 \p{
   An \em{extensional algebraic basis} for a [#{\VV}-dcpo](axt-0021) #{D} is an
