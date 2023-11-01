@@ -9,7 +9,7 @@
 \p{
   In [[tom-de-jong]]'s [thesis](tdj-thesis) and his Agda formalization of domain
   theory, the term “structurally continuous” is used to mean a
-  [#{\VV}-dcpo](axt-0021) #{D}, is called \em{structurally continuous} if it is
+  [#{\VV}-dcpo](axt-0021) #{D},
   equipped with a function giving, for every #{x : D}, a small directed family
   of elements way below #{x} giving #{x} as its join.
 }
