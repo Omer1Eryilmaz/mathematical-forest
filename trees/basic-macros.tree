@@ -9,4 +9,4 @@
 
 \def\IsDefinedToBe{\vcentcolon\equiv}
 
-\def\DefnEq[x][y]{\x \IsDefinedToBe \y}
+\def\define[x][y]{\x \IsDefinedToBe \y}
