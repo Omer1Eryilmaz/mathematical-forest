@@ -6,6 +6,7 @@
 
 \import{basic-macros}
 \import{axt-000M}
+\import{axt-002S}
 
 \p{
   A [#{(\UU, \VV, \WW)}-locale](axt-0008) #{X} is called \definiendum{spectral}
@@ -21,7 +22,7 @@
         \li{#{U = \bigvee_{k : K_U} \kappa_U(k)}.}
         \li{
           It consists of compact opens i.e.
-          #{\forall k : K_U.\ \mathsf{isCompactOpen}(\kappa_{U}(k))}.
+          #{\forall k : K_U.\ \isCompactOpen{\kappa_{U}(k)}}.
         }
       }
     }
