@@ -1,0 +1,19 @@
+\title{Initial frame in UF}
+\date{2023-11-01}
+\taxon{definition}
+
+\import{basic-macros}
+
+\p{
+  The \em{initial frame} at universe #{\UU} in UF is the type #{\Omega_{\UU}}
+  viewed as a [frame](axt-0008) as follows:
+  \ul{
+    \li{\em{Order}: #{\define{P \le Q}{P \Rightarrow Q}}.}
+    \li{\em{Top element}: #{\define{\b1}{\top_{\UU}}.} } 
+    \li{\em{Meet}: #{\define{P \wedge Q}{P \times Q}}.}
+    \li{
+      \em{Arbitrary join}:
+        #{\define{\left(\bigvee_{i : I} P_i\right)}{\exists k : I.\ P_k}.}
+    }
+  }
+}
