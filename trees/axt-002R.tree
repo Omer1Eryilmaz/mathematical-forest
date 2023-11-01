@@ -1,0 +1,23 @@
+\title{Zero-dimensional locale in UF}
+\taxon{definition}
+\date{2023-11-01}
+\author{ayberkt}
+\author{martin-escardo}
+
+\import{basic-macros}
+\import{axt-000M}
+
+\p{
+  A [#{(\UU, \VV, \WW)}-locale](axt-0008) #{X} is called
+  \definiendum{zero-dimensional} if it satisfies the following condition:
+  for every #{U : \opens{X}}, there exists a directed #{\WW}-family #{(K_U,
+  \kappa_U)} that satisfies the following conditions.
+  \ol{
+    \li{#{(K_U, \kappa_U)} is directed.}
+    \li{#{(K_U, \kappa_U)} gives #{U} as its join.}
+    \li{
+      It consists of clopens i.e.
+      #{\forall k : K_U.\ \mathsf{isClopen}(\kappa_{U}(k))}.
+    }
+  }
+}
