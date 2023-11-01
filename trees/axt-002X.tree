@@ -1,0 +1,12 @@
+\title{Not-not-separated type}
+\taxon{definition}
+\date{2023-11-01}
+\author{martin-escardo}
+\meta{external}{https://www.cs.bham.ac.uk//~mhe/TypeTopology/UF.DiscreteAndSeparated.html#5439}
+
+\import{basic-macros}
+
+\p{
+  A type #{X} is called \definiendum{#{\neg\neg}-separated} if
+  #{x = y} is a [#{\neg\neg}-stable type](axt-002Y) for every #{x, y : X}.
+}
