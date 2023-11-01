@@ -8,7 +8,7 @@
 \import{basic-macros}
 \import{axt-000M}
 
-\def\isCompactOpen[U]{\mathsf{isCompactOpen}(\U)}
+\def\isCompactOpen[U]{\mathsf{isCompact}(\U)}
 
 \p{
   Let #{X} be a #{(\UU, \VV, \WW)}-locale. An open #{U : \opens{X}} is called
