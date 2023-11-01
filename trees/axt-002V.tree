@@ -1,0 +1,11 @@
+\title{Continuous map of data types}
+\date{2023-11-01}
+\author{martin-escardo}
+\meta{source}{2nd paragraph of \b{Sec. 3.1} of [the Barbados notes](barbados-notes)}
+
+\import{basic-macros}
+
+\p{
+  A function #{f : \mathtt{a} \to \mathtt{b}} of data types is called
+  \definiendum{continuous} if is definable Haskell.
+}
