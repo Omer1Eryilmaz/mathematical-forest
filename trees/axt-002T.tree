@@ -1,0 +1,11 @@
+\title{Space}
+\date{2023-11-01}
+\author{martin-escardo}
+\meta{source}{First paragraph of \b{Sec. 3.5} of [the Barbados notes](barbados-notes)}
+
+\import{basic-macros}
+
+\p{
+  A \definiendum{space} is a subset #{X \subseteq \mathtt{a}} of inhabitants of
+  a Haskell data type #{\mathtt{a}}.
+}
