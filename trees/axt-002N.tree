@@ -1,0 +1,14 @@
+\title{Nucleus}
+\taxon{definition}
+\date{2023-10-31}
+\meta{source}{\b{Paragraph II.2.2.} of [[ptj-stone-spaces]]}
+
+\p{
+  Let #{L} be a frame. A nucleus on #{L} is an endofunction #{j : L \to L}
+  satisfying the following three conditions.
+  \ol{
+    \li{\em{Meet preservation}: #{\forall x, y \in L.\ j(x \wedge y) = j(x) \wedge j(y).}}
+    \li{\em{Inflationarity}: #{\forall x \in L.\ x \le j(x).}}
+    \li{\em{Idempotence}: #{\forall x \in L. j(j(x)) \le j(x).}}
+  }
+}
