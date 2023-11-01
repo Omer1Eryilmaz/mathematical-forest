@@ -1,0 +1,15 @@
+\title{Continuous map of spaces}
+\taxon{definition}
+\date{2023-11-01}
+\author{martin-escardo}
+\meta{source}{1st paragraph of \b{Sec. 3.7} of [the Barbados notes](barbados-notes)}
+
+\def\env[a]{\mathtt{\a}}
+
+\p{
+  Let #{X} and #{Y} be two [spaces](axt-002T) with environments #{\env{a}} and
+  #{\env{b}} respectively. A function #{\varphi : X \to Y} is continuous if
+  there exists a [continuous function of data types](axt-002V)
+  #{f : \env{a} \to \env{b}} such that
+  ##{\forall x \in X.\ \varphi(x) = f(x).}
+}
