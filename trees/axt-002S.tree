@@ -1,0 +1,17 @@
+\title{Compact open of a locale in UF}
+\taxon{definition}
+\date{2023-11-01}
+\author{ayberkt}
+\author{martin-escardo}
+\meta{source}{\b{Defn. 3.5} of [Tosun and Escardó](patch-mfps)}
+
+\import{basic-macros}
+\import{axt-000M}
+
+\def\isCompactOpen[U]{\mathsf{isCompactOpen}(\U)}
+
+\p{
+  Let #{X} be a #{(\UU, \VV, \WW)}-locale. An open #{U : \opens{X}} is called
+  \definiendum{compact} if the principal filter on #{U} is inaccessible by joins
+  of directed [#{\WW}-families](axt-001F).
+}
