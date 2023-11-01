@@ -35,7 +35,7 @@
     The fact that #{U} is [Scott open](axt-001Y) entails it is inaccessible by
     directed joins so the fact that
     ##{\left(\bigvee^{\uparrow} \{ c \in \KK(D) \mid c \sqsubseteq x \}\right) \in U}
-    means there exists some #{c_0 \in U} with #{c_0 \sqsubseteq x}
-    which is to say #{x \in \upop{c_0}}
+    means there exists a compact #{c_0 \in U} with #{c_0 \sqsubseteq x}
+    which is to say #{x \in \upop{c_0}}.
   }
 }
