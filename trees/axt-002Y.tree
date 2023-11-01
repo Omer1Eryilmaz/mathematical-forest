@@ -1,0 +1,11 @@
+\title{Not-not-stable type}
+\taxon{definition}
+\date{2023-11-01}
+\author{martin-escardo}
+
+\import{basic-macros}
+
+\p{
+  A type #{X} is called \definiendum{#{\neg\neg}-stable} if #{\neg \neg A \to
+  A}.
+}
