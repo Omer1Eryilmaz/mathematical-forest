@@ -10,7 +10,7 @@
 \def\WW{\mathcal{W}}
 
 \p{
-  An \em{extensional algebraic basis} for a #{\VV}-dcpo #{D} is an [extensional
-  basis](axt-0022) #{(B, \beta)} satisfying
-  ##{\forall b : B.\ \compact{\beta(b)}.}
+  An \em{extensional algebraic basis} for a [#{\VV}-dcpo](axt-0021) #{D} is an
+  [intensional algebraic basis](axt-002F) #{(B, \beta)} that is
+  [extensional](axt-0028).
 }

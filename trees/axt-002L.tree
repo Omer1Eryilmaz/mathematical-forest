@@ -24,7 +24,7 @@
   When the notion of a [#{\VV}-dcpo](axt-0021) attains a specific
   [attitude](https://ncatlab.org/nlab/show/concept+with+an+attitude), such as
   [that of a denotational domain](axt-0003), it is perfectly fine for these
-  terms to be overloaded to mean concepts that include these requirements.
+  terms to be overloaded to refer to concepts that include these requirements.
 }
 
 \transclude{axt-0022}

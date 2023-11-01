@@ -10,7 +10,7 @@
 \def\WW{\mathcal{W}}
 
 \p{
-  Let #{D} be a [#{\VV}-dcpo](axt-0021). An \em{extensional basis} for #{D} is
-  an [intensional basis](axt-0022) #{(B, \beta)} with the additional requirement
-  that #{\beta} be an embedding.
+  Let #{D} be a [#{\VV}-dcpo](axt-0021). An \em{intensional basis} #{(B, \beta)}
+  for #{D} is called an [extensional basis](axt-0022) if #{\beta} is an
+  embedding.
 }

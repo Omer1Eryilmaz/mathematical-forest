@@ -8,5 +8,5 @@
 
 \p{
   A [#{\VV}-dcpo](axt-0021) #{D} is called \em{algebraic} if there exists an
-  [algebraic presentation](axt-002B) for it.
+  [algebraicity datum](axt-002B) for it.
 }

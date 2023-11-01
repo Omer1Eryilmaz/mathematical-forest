@@ -1,5 +1,4 @@
-\title{Intensionally algebraic [#{\mathcal{V}}-dcpo](axt-0021)}
-\taxon{definition}
+\taxon{proposition}
 \date{2023-10-29}
 \author{tom-de-jong}
 \author{martin-escardo}
@@ -9,6 +8,7 @@
 \def\WW{\mathcal{W}}
 
 \p{
-  A [#{\VV}-dcpo](axt-0021) #{D} is called \em{intensionally algebraic} if
-  it there is a specified [algebraic presentation](axt-002B) for it.
+  A [#{\VV}-dcpo](axt-0021) #{D} having a specified [algebraicity
+  datum](axt-002B) is the same thing as #{D} being [structurally
+  algebraic](axt-001C).
 }
