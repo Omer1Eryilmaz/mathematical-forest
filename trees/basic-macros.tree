@@ -10,3 +10,5 @@
 \def\IsDefinedToBe{\vcentcolon\equiv}
 
 \def\define[x][y]{\x \IsDefinedToBe \y}
+
+\def\definiendum[term]{\em{\term}}
