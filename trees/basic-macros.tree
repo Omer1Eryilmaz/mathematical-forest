@@ -4,3 +4,9 @@
 \def\UU{\mathcal{U}}
 \def\VV{\mathcal{V}}
 \def\WW{\mathcal{W}}
+
+\def\b1{\mathbf{1}}
+
+\def\IsDefinedToBe{\vcentcolon\equiv}
+
+\def\DefnEq[x][y]{\x \IsDefinedToBe \y}
