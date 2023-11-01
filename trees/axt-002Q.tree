@@ -18,7 +18,7 @@
       #{(K_U, \kappa_U)} that satisfies the following conditions.
       \ol{
         \li{#{(K_U, \kappa_U)} is directed.}
-        \li{#{(K_U, \kappa_U)} gives #{U} as its join.}
+        \li{#{U = \bigvee_{k : K_U} \kappa_U(k)}.}
         \li{
           It consists of compact opens i.e.
           #{\forall k : K_U.\ \mathsf{isCompactOpen}(\kappa_{U}(k))}.

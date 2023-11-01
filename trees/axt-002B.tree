@@ -14,7 +14,7 @@
   #{(K_x, \kappa_x)} on #{D} that satisfies the following.
   \ol{
     \li{The family #{(K_x, \kappa_x)} is directed.}
-    \li{The element #{x} is the supremum of #{(K_x, \kappa_x)}.}
+    \li{#{x = \bigvee^{\uparrow}_{k : K_x} \kappa_x(k)}.}
     \li{For each #{k : K_x}, #{\kappa_x(k)} is compact.}
   }
 }

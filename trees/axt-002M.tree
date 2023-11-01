@@ -9,9 +9,9 @@
 \p{
   In [[tom-de-jong]]'s [thesis](tdj-thesis) and his Agda formalization of domain
   theory, the term “structurally continuous” is used to mean a
-  [#{\VV}-dcpo](axt-0021) #{D},
-  equipped with a function giving, for every #{x : D}, a small directed family
-  of elements way below #{x} giving #{x} as its join.
+  [#{\VV}-dcpo](axt-0021) #{D}, equipped with a function giving, for every #{x :
+  D}, a small directed family of elements way below #{x}, giving #{x} as its
+  join.
 }
 
 \p{
@@ -24,10 +24,11 @@
 \p{
   Factoring this structure out into a definition of its own obviates the need to
   have a name for the notion of a “#{\VV}-dcpo having a specified continuity
-  datum”. Even though the equivalence between [structurally
-  continuous](axt-0027) and “having a specified [continuity datum](axt-002H)” is
-  completely trivial, we still record this in the following proposition to be
-  able to explicitly refer to this terminological identity.
+  datum”, which is what “structurally continuous” means. Even though the
+  equivalence between [structurally continuous](axt-0027) and “having a
+  specified [continuity datum](axt-002H)” is completely trivial, we still record
+  this in the following proposition to be able to explicitly refer to this
+  terminological identity.
 }
 
 \transclude{axt-001K}
