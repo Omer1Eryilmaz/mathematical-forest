@@ -1,0 +1,17 @@
+\title{Non-Hausdorff topology and domain theory}
+\taxon{reference}
+\author{jean-goubault-larrecq}
+\date{2013}
+
+\meta{bibtex}{\startverb%
+@book{jgl-non-hausdorff,
+  title        = {Non-Hausdorff topology and domain theory},
+  author       = {Goubault-Larrecq, Jean},
+  date         = {2013},
+  address      = {Cambridge},
+  isbn         = {9781107034136},
+  publisher    = {Cambridge University Press},
+  volume       = {22},
+  series       = {New mathematical monographs},
+}
+\stopverb}
