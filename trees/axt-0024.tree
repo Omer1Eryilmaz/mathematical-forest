@@ -2,7 +2,7 @@
 \taxon{definition}
 \date{2023-10-26}
 \author{peter-johnstone}
-\meta{source}{\b{Paragraph 3.2} of [Stone Spaces](ptj-stone-spaces)}
+\meta{source}{\b{II.3.2} from [Stone Spaces](ptj-stone-spaces)}
 
 \import{basic-macros}
 \import{axt-000M}
@@ -20,4 +20,3 @@
     }
   }
 }
-
