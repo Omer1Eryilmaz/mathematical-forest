@@ -1,0 +1,12 @@
+\title{Embedding}
+\taxon{definition}
+\date{2023-11-02}
+\meta{external}{https:/www.cs.bham.ac.uk/~mhe/TypeTopology/UF.Embeddings.html#593}
+
+\import{basic-macros}
+\import{axt-0034}
+
+\p{
+  A function #{f : X \to Y} is called an \definiendum{embedding} if, for every
+  #{y : Y}, the type [#{\fiber{f}{y}}](axt-0034) is [a proposition](axt-0035).
+}
