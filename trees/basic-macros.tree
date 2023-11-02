@@ -13,4 +13,8 @@
 
 \def\definiendum[term]{\em{\term}}
 
+\def\PiType[a][A][e]{\prod_{\a : \A} \e}
+
 \def\SigmaType[a][A][e]{\sum_{\a : \A} \e}
+
+\def\Id[x][y]{\x = \y}
