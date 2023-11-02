@@ -1,0 +1,10 @@
+\title{Being a proposition}
+\taxon{definition}
+\date{2023-11-02}
+
+\import{basic-macros}
+
+\p{
+  A type #{X} is called a \definiendum{proposition} if
+  #{\PiType{x, y}{X}{\Id{x}{y}}}.
+}
