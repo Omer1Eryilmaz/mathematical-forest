@@ -1,0 +1,13 @@
+\title{Extensional spectral basis for a locale}
+\taxon{definition}
+\date{2023-11-02}
+\author{ayberkt}
+\author{martin-escardo}
+
+\import{basic-macros}
+
+\p{
+  An \definiendum{extensional spectral basis} #{(B, \beta)} for a
+  [#{\WW}-locale](axt-0008) is an [intensional spectral basis](axt-0032) that is
+  [extensional](axt-0028).
+}

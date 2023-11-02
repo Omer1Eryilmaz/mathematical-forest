@@ -1,0 +1,27 @@
+\title{Intensional spectral basis for a locale}
+\taxon{definition}
+\date{2023-11-02}
+\author{ayberkt}
+\author{martin-escardo}
+
+\import{basic-macros}
+
+\p{
+  An \definiendum{intensional spectral basis} for a [#{\WW}-locale](axt-0008) #{X} is
+  an [intensional basis](axt-0022) #{(B, \beta)} for its underlying
+  [#{\WW}-dcpo](axt-0021) that satisfies the following two conditions
+  \ul{
+    \li{For every #{b : B}, #{\beta(b)} is a [compact open](axt-002S) of #{X}.}
+    \li{
+      The basis #{(B, \beta)} is closed under finite meets. This is to say
+      that it satisfies the following conditions.
+      \ul{
+        \li{It contains the empty meet: #{\exists t : B.\ \mathsf{isTop}(\beta(t))}.}
+        \li{
+          It is closed under binary meets:
+          ##{\forall b_1, b_2 : B.\ \exists b_3 : B\ \beta(b_3)\ \text{is the glb of}\ \{ \beta(b_2), \beta(b_3) \}.}
+        }
+      }
+    }
+  }
+}
