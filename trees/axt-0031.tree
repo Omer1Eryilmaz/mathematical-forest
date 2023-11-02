@@ -1,0 +1,13 @@
+\taxon{proposition}
+\date{2023-11-02}
+\author{tom-de-jong}
+\author{martin-escardo}
+
+\import{basic-macros}
+
+\p{
+  A [#{\VV}-dcpo](axt-0021) being pseudocontinuous is the same thing as it
+  having a specified [continuity datum](axt-002H), but with the specified
+  existence requirement in the notion of [continuity datum](axt-002H) relaxed to
+  requirement of mere existence.
+}
