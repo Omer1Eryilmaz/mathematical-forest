@@ -1,6 +1,8 @@
 \title{Initial frame in UF}
-\date{2023-11-01}
 \taxon{definition}
+\author{ayberkt}
+\author{martin-escardo}
+\date{2023-11-01}
 \meta{source}{[Defn. in TypeTopology](https://www.cs.bham.ac.uk//~mhe/TypeTopology/Locales.InitialFrame.html#1903)}
 
 \import{basic-macros}
