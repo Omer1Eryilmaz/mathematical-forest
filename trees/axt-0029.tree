@@ -7,9 +7,13 @@
 \import{basic-macros}
 
 \p{
-  A \em{pseudocontinuous} [#{\VV}-dcpo](axt-0021) is the same thing as a
-  [#{\VV}-dcpo](axt-0021) [with a specified continuity datum](axt-001K), but
-  with the requirement of a specified directed [#{\VV}-family](axt-001F) (given
-  by the [continuity datum](axt-002H)) weakened to a requirement of mere
-  existence.
+  A [#{\VV}-dcpo](axt-0021) is called \definiendum{pseudocontinuous} if there is
+  a specified function giving, for every #{x : D}, the mere existence of a
+  [#{\VV}-family](axt-001F) #{(K_x, \kappa_x)} on #{D} satisfying the following
+  conditions.
+  \ul{
+    \li{The family #{(K_x, \kappa_x)} is directed.}
+    \li{#{x = \bigvee^{\uparrow}_{k : K_x} \kappa_x(k)}.}
+    \li{For each #{k : K_x}, #{\kappa_x(k) \ll x}.}
+  }
 }
