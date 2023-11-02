@@ -5,7 +5,7 @@
 \taxon{reference}
 
 \meta{bibtex}{\startverb%
-@InProceedings{deJongEscardo2021b,
+@InProceedings{tdj-mhe-aspects,
   author       = {de Jong, Tom and Escard\'o, Mart\'in H\"otzel},
   title        = {Predicative Aspects of Order Theory in Univalent Foundations},
   booktitle    = {6th International Conference on Formal Structures for Computation and Deduction (FSCD 2021)},
