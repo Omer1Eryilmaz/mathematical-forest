@@ -12,5 +12,5 @@
 \p{
   Let #{D} be a [#{\VV}-dcpo](axt-0021). An \em{intensional basis} #{(B, \beta)}
   for #{D} is called an [extensional basis](axt-0022) if #{\beta} is an
-  embedding.
+  [embedding](axt-0036).
 }
