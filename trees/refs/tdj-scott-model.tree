@@ -1,0 +1,18 @@
+\title{The Scott model of PCF in univalent type theory}
+\taxon{reference}
+\author{tom-de-jong}
+\date{2021}
+
+\meta{bibtex}{\startverb%
+@article{deJong2021a,
+  title        = {The {Scott} model of {PCF} in univalent type theory},
+  author       = {de Jong, Tom},
+  date         = {2021},
+  pages        = {1270--1300},
+  journal      = {Mathematical Structures in Computer Science},
+  volume       = {31},
+  number       = {10},
+  issuetitle   = {Homotopy Type Theory 2019},
+  doi          = {10.1017/S0960129521000153},
+}
+\stopverb}
