@@ -4,7 +4,7 @@
 \date{2021}
 
 \meta{bibtex}{\startverb%
-@article{deJong2021a,
+@article{tdj-scott-model,
   title        = {The {Scott} model of {PCF} in univalent type theory},
   author       = {de Jong, Tom},
   date         = {2021},
