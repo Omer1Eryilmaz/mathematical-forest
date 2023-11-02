@@ -18,3 +18,5 @@
 \def\SigmaType[a][A][e]{\sum_{\a : \A} \e}
 
 \def\Id[x][y]{\x = \y}
+
+\def\PropTrunc3[e]{\Bigl\lVert \e \Bigr\rVert}
