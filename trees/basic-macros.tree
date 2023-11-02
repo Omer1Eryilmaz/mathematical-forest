@@ -12,3 +12,5 @@
 \def\define[x][y]{\x \IsDefinedToBe \y}
 
 \def\definiendum[term]{\em{\term}}
+
+\def\SigmaType[a][A][e]{\sum_{\a : \A} \e}
