@@ -1,0 +1,9 @@
+\title{Zorn's lemma}
+\taxon{definition}
+\date{2023-11-03}
+\meta{source}{\b{10.2} of Davey and Priestley}
+
+\p{
+  Any [inductive](axt-0039) nonempty ordered set has a [maximal
+  element](axt-003A).
+}
