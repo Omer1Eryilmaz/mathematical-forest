@@ -25,7 +25,8 @@
 \proof{
   \p{
     #{(\impliedby)} This direction follows directly from the [upward
-    closure](axt-001Z) of #{U}, which is entailed by its Scott openness.
+    closure](axt-001Z) of #{U}, which is entailed by its [Scott
+    openness](axt-001Y).
   }
   \p{
     #{(\implies)} Let #{x \in U}. We need to show that there exists a compact

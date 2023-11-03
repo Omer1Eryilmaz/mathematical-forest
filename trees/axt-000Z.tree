@@ -2,7 +2,9 @@
 \date{2023-09-18}
 \taxon{definition}
 
+\import{basic-macros}
+
 \p{
-  \em{Zorn's Lemma} says that every nonempty inductive ordered set has a
-  maximal element
+  \definiendum{Zorn's lemma} is the statement that every nonempty
+  [inductive](axt-0038) ordered set has a [maximal element](axt-0039).
 }
