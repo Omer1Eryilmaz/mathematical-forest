@@ -1,0 +1,18 @@
+\title{Axiom of choice in UF}
+\taxon{definition}
+\date{2023-11-02}
+\meta{source}{\b{3.8.3} from [the HoTT book](hott-book)}
+
+\import{basic-macros}
+
+\def\Set[univ]{\mathsf{Set}_{\univ}}
+
+\p{
+  Let #{\UU, \VV} be two universes and let
+  \ul{
+    \li{#{A : \Set{\UU}}; and}
+    \li{#{B : A \to \Set{\VV}}.}
+  }
+  The \definiendum{axiom of choice} is the following statement:
+  ##{ \left(\PiType{a}{A}{\PropTrunc3{B(a)}}\right) \to \PropTrunc3{\PiType{a}{A}{B(a)}} }
+}
