@@ -1,0 +1,19 @@
+\title{Least fixed point}
+\date{2023-11-06}
+\author{brian-davey}
+\author{hilary-priestley}
+\meta{source}{\b{Defn. 8.14} of [Davey and Priestley](davey-priestley-book)}
+
+\import{basic-macros}
+
+\def\LFP[h]{\mu(\h)}
+
+\p{
+  Let #{P} be a partially ordered set and let #{h : P \to P} be an endofunction.
+  An element #{x \in P} is called the \definiendum{least fixed point} of #{h} if
+  \ul{
+    \li{it is a [fixed point](axt-003G) of #{h}, and}
+    \li{it is below any other fixed point of #{h}.}
+  }
+  When it exists, the least fixed point is denoted #{\LFP{h}}.
+}
