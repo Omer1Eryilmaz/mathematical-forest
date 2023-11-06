@@ -1,0 +1,14 @@
+\title{Axiom of choice in set theory}
+\taxon{axiom}
+\date{2023-11-06}
+\author{brian-davey}
+\author{hilary-priestley}
+\meta{source}{\b{Paragraph 10.1} of [Davey and Priestley](davey-priestley-book)}
+
+\def\AxiomAC{#{(\mathsf{AC})}}
+
+\p{
+  For every nonempty family #{\{ A_i \}_{i \in I}} of nonempty sets, there
+  exists a function #{f : I \to \bigcup_{i \in I} A_i} such that
+  ##{\forall i \in I.\ f(i) \in A_i.}
+}
