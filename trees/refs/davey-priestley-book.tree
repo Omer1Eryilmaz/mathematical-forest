@@ -1,0 +1,17 @@
+\title{Introduction to Lattices and Order}
+\author{brian-davey}
+\author{hilary-priestley}
+\date{2002}
+
+\meta{bibtex}{\startverb%
+@book{davey-priestley-book,
+  title        = {Introduction to Lattices and Order},
+  date         = {2002},
+  place        = {Cambridge CB2 8BS, UK},
+  edition      = {2},
+  doi          = {10.1017/CBO9780511809088},
+  isbn         = {978-0-521-78451-1},
+  publisher    = {Cambridge University Press},
+  author       = {Davey, Brian A. and Priestley, Hilary A.},
+}
+\stopverb}
