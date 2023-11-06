@@ -4,7 +4,7 @@
 \author{hilary-priestley}
 \meta{source}{#{(ZL)''} from [Davey and Priestley](davey-priestley-book)}
 
-\def\AxiomZL2[#{\mathsf{(ZL)''}}]
+\def\AxiomZL2{#{\mathsf{(ZL)''}}}
 
 \p{
   Every [pointed dcpo](axt-003B) has a [maximal element](axt-0039).
