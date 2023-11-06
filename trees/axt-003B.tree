@@ -1,0 +1,12 @@
+\title{Pointed dcpo}
+\taxon{definition}
+\date{2023-11-06}
+\author{hilary-priestley}
+\meta{source}{\b{Defn. 8.1} of [Davey and Priestley](foo)}
+
+\import{basic-macros}
+
+\p{
+  A \definiendum{pointed dcpo} is a [dcpo](axt-003C) that has a bottom element
+  #{\bot \in D}.
+}
