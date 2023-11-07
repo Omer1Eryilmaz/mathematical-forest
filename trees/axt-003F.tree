@@ -8,5 +8,6 @@
 
 \p{
   Let #{(D, \sqsubseteq)} be a [pointed dcpo](axt-003B) and #{F : D \to D} an
-  inflationary endomap on it. The function #{F} has a least [fixed point].
+  inflationary endomap on it. There exists a [least fixed
+  point](axt-003H) for function #{F}.
 }
