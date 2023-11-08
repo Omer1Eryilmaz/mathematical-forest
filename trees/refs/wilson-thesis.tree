@@ -1,0 +1,14 @@
+\title{The Assembly Tower and Some Categorical and Algebraic Aspects of Frame Theory}
+\taxon{reference}
+\author{todd-wilson}
+\date{1994-05}
+
+\meta{bibtex}{\startverb%
+@phdthesis{wilson-thesis,
+  title     = {The Assembly Tower and Some Categorical and Algebraic Aspects of Frame Theory},
+  author    = {Wilson, J. Todd},
+  date      = {1994-05},
+  school    = {School of Computer Science, Carnegie Mellon University},
+  location  = {Pittsburgh, PA},
+}
+\stopverb}
