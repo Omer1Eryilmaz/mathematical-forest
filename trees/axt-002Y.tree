@@ -2,9 +2,11 @@
 \taxon{definition}
 \date{2023-11-01}
 \author{martin-escardo}
-\meta{external}{https://www.cs.bham.ac.uk//~mhe/TypeTopology/MLTT.Negation.html#2342}
+\meta{external}{https://www.cs.bham.ac.uk/~mhe/TypeTopology/MLTT.Negation.html#2342}
 
 \import{basic-macros}
+
+\def\IsNotNotStable[X]{\mathsf{isNotNotStable}(\X)}
 
 \p{
   A type #{X} is called \definiendum{#{\neg\neg}-stable} if #{\neg \neg A \to
