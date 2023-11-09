@@ -2,3 +2,20 @@
 \taxon{definition}
 \date{2023-11-08}
 \author{todd-wilson}
+\meta{source}{\b{Paragraph 13.2} (p. 66) of [Wilson's thesis](wilson-thesis)}
+
+\import{basic-macros}
+
+\def\HeytImp{\Rightarrow}
+
+\p{
+  Let #{L} be a [frame](axt-003J). A subset #{M \subseteq L} is called a
+  \definiendum{maxset} if,
+  \ol{
+    \li{it is closed under arbitrary meets, and}
+    \li{
+      it is an exponential ideal i.e.
+      #{\forall x \in L.\ \forall m \in M.\ (x \HeytImp m) \in M}.
+    }
+  }
+}
