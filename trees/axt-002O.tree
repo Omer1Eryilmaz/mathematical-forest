@@ -8,8 +8,9 @@
 \import{basic-macros}
 
 \p{
-  The \em{initial frame} at universe #{\UU} in UF is the type #{\Omega_{\UU}}
-  viewed as a [#{(\UU^+, \UU, \UU)}-frame](axt-0008) as follows:
+  The \em{initial frame} at universe #{\UU} in UF is [the type
+  #{\Omega_{\UU}}](axt-003K) viewed as a [#{(\UU^+, \UU, \UU)}-frame](axt-0008)
+  as follows:
   \ul{
     \li{\em{Order}: #{\define{P \le Q}{P \Rightarrow Q}}.}
     \li{\em{Top element}: #{\define{\b1}{\top_{\UU}}.} } 
