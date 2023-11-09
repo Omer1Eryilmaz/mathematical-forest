@@ -1,0 +1,15 @@
+\title{The Ω (𝓤, 𝓥)-resizing axiom}
+\taxon{axiom}
+\date{2023-11-09}
+\meta{source}{\b{Defn 2.ii} from [de Jong and Escardó](tdj-mhe-aspects)}
+\author{martin-escardo}
+\author{tom-de-jong}
+
+\import{basic-macros}
+\import{axt-003K}
+
+\p{
+  Let #{\UU} and #{\VV} be two universes. The \definiendum{#{\Omega} #{(\UU,
+  \VV)}-resizing axiom} says that the type #{\HProp{\UU}} is
+  [#{\VV}-small](axt-003M).
+}
