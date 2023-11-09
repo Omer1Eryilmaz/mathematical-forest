@@ -4,7 +4,8 @@
 
 \import{basic-macros}
 \import{axt-0035}
-\def\HProp[U]{\Omega_{\U}}
+\def\HPropSym{\Omega}
+\def\HProp[U]{\HPropSym_{\U}}
 
 \p{
   The type \definiendum{#{\HProp{\UU}}}, of propositions at universe #{\UU}, is
