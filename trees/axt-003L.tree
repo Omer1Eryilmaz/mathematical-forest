@@ -1,0 +1,33 @@
+\title{δv-complete poset}
+\taxon{definition}
+\date{2023-11-09}
+\author{tom-de-jong}
+\meta{source}{\b{Defn. 6.2.1} from [Tom de Jong's thesis](tdj-thesis)}
+
+\import{basic-macros}
+\import{axt-003K}
+
+\def\One{\mathbb{1}}
+\def\inl[x]{\mathsf{inl}(\x)}
+\def\inr[x]{\mathsf{inr}(\x)}
+
+\p{
+  Let #{\VV} be a universe. A poset #{A} is called
+  \definiendum{#{\delta_{\VV}}-complete} if for any two elements #{x, y : A}
+  with #{x \le y} and every [proposition](axt-0035) #{P : \HProp{\VV}}, the join
+  of the [#{\VV}-family](axt-001F) #{(\One + P, \delta_{\langle x, y, P
+  \rangle})}, defined by
+}
+
+\p{
+  \tex{
+    \begin{tabular}{l l l}
+      $\delta_{\langle x, y, P \rangle}(\inl{\star})$ & $\vcentcolon\equiv$ & $x$\\
+      $\delta_{\langle x, y, P \rangle}(\inr{p})$     & $\vcentcolon\equiv$ & $y$
+    \end{tabular}
+  }
+}
+
+\p{
+  exists in #{P}.
+}
