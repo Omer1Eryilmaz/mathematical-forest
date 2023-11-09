@@ -1,0 +1,11 @@
+\title{Propositional (𝓤, 𝓥)-resizing}
+\taxon{axiom}
+\date{2023-11-09}
+
+\import{basic-macros}
+
+\p{
+  Let #{\UU} and #{\VV} be two universes. The \definiendum{propositional #{(\UU,
+  \VV)}-resizing axiom} says that every [proposition](axt-0035) #{P : \UU} is
+  [#{\VV}-small](axt-003M).
+}
