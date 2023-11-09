@@ -1,0 +1,11 @@
+\taxon{theorem}
+\date{2023-11-09}
+\meta{source}{\b{Prop. 3.i} from [de Jong and Escardó](tdj-mhe-aspects)}
+
+\import{basic-macros}
+
+\p{
+  Let #{\UU} and #{\VV} be two universes. The [#{\Omega} #{(\UU, \VV)}-resizing
+  axiom](axt-003P) implies [the propositional #{(\UU, \VV)}-resizing
+  axiom](axt-003N).
+}
