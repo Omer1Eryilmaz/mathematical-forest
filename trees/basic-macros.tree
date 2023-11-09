@@ -21,6 +21,8 @@
 
 \def\PropTrunc3[e]{\Bigl\lVert \e \Bigr\rVert}
 
+\def\AreEquivalent[X][Y]{X \simeq Y}
+
 \def\proof[body]{
   \iftex{
     \begin{proof}
