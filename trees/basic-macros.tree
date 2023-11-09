@@ -11,7 +11,7 @@
 
 \def\define[x][y]{\x \IsDefinedToBe \y}
 
-\def\definiendum[term]{\em{\term}}
+\def\definiendum[term]{\b{\term}}
 
 \def\PiType[a][A][e]{\prod_{\a : \A} \e}
 
