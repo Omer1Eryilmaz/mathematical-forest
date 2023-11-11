@@ -5,11 +5,11 @@
 
 \meta{bibtex}{\startverb%
 @phdthesis{tdj-thesis,
-  title     = {Domain theory in constructive and predicative univalent foundations},
-  author    = {de Jong, Tom},
-  date      = {2023},
-  school    = {University of Birmingham},
-  location  = {Birmingham, UK},
-  uri       = {http://etheses.bham.ac.uk/id/eprint/13401},
+  title       = {Domain theory in constructive and predicative univalent foundations},
+  author      = {de Jong, Tom},
+  date        = {2023},
+  school      = {University of Birmingham},
+  location    = {Birmingham B15 2TT, UK},
+  uri         = {http://etheses.bham.ac.uk/id/eprint/13401},
 }
 \stopverb}
