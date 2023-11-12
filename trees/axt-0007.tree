@@ -1,8 +1,0 @@
-\title{Unary formal topologies and Scott domains}
-\date{2023-08-19}
-\taxon{theorem}
-
-\def\AA{\mathcal{A}}
-\def\Pt{\mathsf{Pt}}
-
-\p{A formal topology #{\AA} is [Scott](axt-0006) iff #{\Pt(\AA)} is a Scott domain.}

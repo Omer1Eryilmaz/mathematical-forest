@@ -1,8 +1,0 @@
-\title{Bounded completeness}
-\date{2023-10-25}
-\taxon{definition}
-
-\p{
-  A partially ordered set #{(A, \le)} is called \em{bounded complete} if
-  all subsets of #{A} that have an upper bound have a least upper bound.
-}

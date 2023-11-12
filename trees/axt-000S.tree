@@ -1,9 +1,0 @@
-\title{Open covering (point-set)}
-\date{2023-09-15}
-\taxon{definition}
-
-\p{
-  A family #{\{ U_i \}_{i \in I}} of opens of space #{X} is said to be an \em{open
-  covering} for a subset #{A \subseteq X} if
-  ##{A = \bigcup_{i \in I} U_i.}
-}

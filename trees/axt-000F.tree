@@ -1,9 +1,0 @@
-\title{Connected space (clopen)}
-\date{2023-09-04}
-\taxon{definition}
-
-\p{
-  A topological space #{X} is \em{connected} if for any subset #{A \subseteq X},
-  if #{A} is clopen then #{A} is either the empty set #{\emptyset} or the entire
-  set #{X}.
-}

@@ -1,9 +1,0 @@
-\title{Upwards-closed subset}
-\date{2023-10-26}
-\taxon{definition}
-
-\p{
-  Let #{(X, \le)} be a poset. A subset #{A \subseteq X} is \em{upwards-closed}
-  if it satisfies
-  ##{\forall a \in A.\ \forall x \in X.\ a \le x \rightarrow x \in A.}
-}
